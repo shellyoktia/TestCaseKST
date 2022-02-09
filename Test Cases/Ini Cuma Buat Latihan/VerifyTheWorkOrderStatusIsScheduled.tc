@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyTheWorkOrderStatusIsScheduled</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce7a2e43-d903-4d92-9d28-ecb0e56d98d7</testCaseGuid>
+</TestCaseEntity>

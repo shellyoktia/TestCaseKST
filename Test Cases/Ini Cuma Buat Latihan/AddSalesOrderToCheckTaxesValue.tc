@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddSalesOrderToCheckTaxesValue</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1d9da682-e8bf-42e9-8059-a3e4a579049d</testCaseGuid>
+   <variable>
+      <defaultValue>'3\r\n'</defaultValue>
+      <description></description>
+      <id>325227b8-7d89-4308-ad94-23246360b45a</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+</TestCaseEntity>

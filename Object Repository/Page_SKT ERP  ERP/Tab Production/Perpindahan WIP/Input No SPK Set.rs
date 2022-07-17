@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input No SPK Set</name>
+   <tag></tag>
+   <elementGuidId>4f3fe5a7-34b4-4193-a8ba-c204431fab91</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@value=''])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.ant-input.ant-select-search__field</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>99974f4e-866e-4361-9c95-ef3199baf42a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>13fdb0be-2801-4965-97e8-ece8fa8105e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-input ant-select-search__field</value>
+      <webElementGuid>6c032d72-757a-4504-84e9-be45232b06a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react-app&quot;)/div[@class=&quot;container&quot;]/main[@class=&quot;layout&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;canvas&quot;]/div[@class=&quot;canvas--content add-edit-view-data&quot;]/form[@class=&quot;data-form&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-xs-24 ant-col-xs-order-2 ant-col-md-11 ant-col-md-order-1&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-20&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control&quot;]/span[@class=&quot;ant-form-item-children&quot;]/div[@class=&quot;ant-select-show-search ant-select-auto-complete ant-select ant-select-open ant-select-focused ant-select-combobox ant-select-enabled&quot;]/div[@class=&quot;ant-select-selection
+            ant-select-selection--single&quot;]/div[@class=&quot;ant-select-selection__rendered&quot;]/ul[1]/li[@class=&quot;ant-select-search ant-select-search--inline&quot;]/div[@class=&quot;ant-select-search__field__wrap&quot;]/input[@class=&quot;ant-input ant-select-search__field&quot;]</value>
+      <webElementGuid>4f85bbfc-9972-4f7a-b627-145aa7c7dd54</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[2]</value>
+      <webElementGuid>c3ea0abc-e6fd-41e0-bcac-a0d4aac7d09a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react-app']/div/main/section/div/div[2]/form/div/div/div[3]/div/div/div[2]/div/span/div/div/div/ul/li/div/input</value>
+      <webElementGuid>f8a82b1b-40fe-402e-87be-4429d7835a77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/div/input</value>
+      <webElementGuid>a5861b5f-9c3c-44bb-ba02-61d0657fd1f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text']</value>
+      <webElementGuid>9d6abaec-31cd-4671-a4a5-a89de8449ce1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

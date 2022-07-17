@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Filters</name>
+   <tag></tag>
+   <elementGuidId>90e49afd-adf0-4ec5-9876-c90d294f4703</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='react-app']/div/main/section/div/div[2]/div/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-collapse-header > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f0f5d1d4-b923-4b47-9a79-0c9a1dde0dd3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Filters</value>
+      <webElementGuid>ed7707de-c501-4adb-90dd-a8fe952e1d09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react-app&quot;)/div[@class=&quot;container&quot;]/main[@class=&quot;layout&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;canvas&quot;]/div[@class=&quot;canvas--content stockBalance&quot;]/div[1]/div[@class=&quot;ant-collapse ant-collapse-borderless ant-collapse-icon-position-left&quot;]/div[@class=&quot;ant-collapse-item filter-block__panel&quot;]/div[@class=&quot;ant-collapse-header&quot;]/div[1]</value>
+      <webElementGuid>1bab2e6d-504e-4d59-ad8a-b64e4708cc43</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react-app']/div/main/section/div/div[2]/div/div/div/div/div</value>
+      <webElementGuid>ebf6a282-11ff-44f8-9e83-57b996e7be00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stock Balance (Finished Good)'])[1]/following::div[6]</value>
+      <webElementGuid>5ee1ce13-0ea7-42e5-a207-4a08213dacf1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stock Balance'])[1]/following::div[6]</value>
+      <webElementGuid>b6108931-da5a-4a38-aa9c-642412768b20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export CSV'])[1]/preceding::div[1]</value>
+      <webElementGuid>91ade83b-fea7-43a1-acf9-fc8f9011cca2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div</value>
+      <webElementGuid>a51335fd-0d4f-432d-973b-654fcc977457</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Filters' or . = 'Filters')]</value>
+      <webElementGuid>2324e216-ec36-435c-be1e-e3bd4791c233</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

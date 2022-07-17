@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PT Beauty Kasatama (5157 - 003944 - BOX VIO PRINTING BARU (3_037960)</name>
+   <tag></tag>
+   <elementGuidId>79d66fa3-11b2-41d8-8e64-73c222619484</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[contains(text(),'5157 - 003944 - BOX VIO PRINTING BARU (340) - K125')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.ant-select-dropdown-menu-item.ant-select-dropdown-menu-item-active</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>b318106e-591b-439f-b231-bc1dd25da7da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>f08496cc-8126-457f-a704-f81491676f34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>unselectable</name>
+      <type>Main</type>
+      <value>on</value>
+      <webElementGuid>c9a061ed-dc07-4a14-a839-c11a9439d3e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>5157 - 003944 - BOX VIO PRINTING BARU (340) - K125/M125/M125/M125/M125</value>
+      <webElementGuid>bd39f6e7-e52d-411f-b77b-a5395a125987</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-select-dropdown-menu-item ant-select-dropdown-menu-item-active</value>
+      <webElementGuid>e73f018e-7b7a-4bc1-be53-e69c38a5cc3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>edad4c13-608f-4759-b8df-955f27ad39c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>5157 - 003944 - BOX VIO PRINTING BARU (340) - K125/M125/M125/M125/M125</value>
+      <webElementGuid>b3e54533-56d5-49f1-acbe-bbb53e064e76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;1c13ee63-ca54-4a10-c980-2f68fed18d22&quot;)/ul[@class=&quot;ant-select-dropdown-menu  ant-select-dropdown-menu-root ant-select-dropdown-menu-vertical&quot;]/li[@class=&quot;ant-select-dropdown-menu-item ant-select-dropdown-menu-item-active&quot;]</value>
+      <webElementGuid>32806e2e-1f78-4dd7-8f22-2e23e868390d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='1c13ee63-ca54-4a10-c980-2f68fed18d22']/ul/li</value>
+      <webElementGuid>4ea8f2f7-3c69-4137-a848-4ea510cb078b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Single Face Roll'])[1]/following::li[1]</value>
+      <webElementGuid>e094f655-bb8c-4a68-aeca-3076ceaad86f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Layer'])[1]/following::li[2]</value>
+      <webElementGuid>5b8f05f2-c014-4fdd-8481-665c436e8a5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='5157 - 003944 - BOX VIO PRINTING BARU (340) - K125/M125/M125/M125/M125']/parent::*</value>
+      <webElementGuid>9adb2067-9baf-4054-bd21-3e896eb0851b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[12]/div/div/div/ul/li</value>
+      <webElementGuid>9747a962-d0ff-4d53-ba69-3f6cfad936e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[@title = '5157 - 003944 - BOX VIO PRINTING BARU (340) - K125/M125/M125/M125/M125' and (text() = '5157 - 003944 - BOX VIO PRINTING BARU (340) - K125/M125/M125/M125/M125' or . = '5157 - 003944 - BOX VIO PRINTING BARU (340) - K125/M125/M125/M125/M125')]</value>
+      <webElementGuid>a0a923bd-f54b-4849-a2c8-ad9a7b6f0839</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

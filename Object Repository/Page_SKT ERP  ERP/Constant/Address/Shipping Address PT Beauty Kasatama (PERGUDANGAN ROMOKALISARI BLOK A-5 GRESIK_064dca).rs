@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Shipping Address PT Beauty Kasatama (PERGUDANGAN ROMOKALISARI BLOK A-5 GRESIK_064dca)</name>
+   <tag></tag>
+   <elementGuidId>20b1c713-2910-452d-98ba-aa5e296d7162</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[contains(text(),'PERGUDANGAN ROMOKALISARI BLOK A-5 GRESIK, Gresik, ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.ant-select-dropdown-menu-item.ant-select-dropdown-menu-item-active</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>81cebea3-46de-47e7-ad73-14e282675ce1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>f61bcadf-c2fc-4b9d-82cf-5fac1ad0632c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>unselectable</name>
+      <type>Main</type>
+      <value>on</value>
+      <webElementGuid>141cc931-b276-4672-8fc1-21b2baa8065f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>PERGUDANGAN ROMOKALISARI BLOK A-5 GRESIK, Gresik, Jawa Timur</value>
+      <webElementGuid>5c612424-bdf6-4bd5-9f93-05abffc2ce05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-select-dropdown-menu-item ant-select-dropdown-menu-item-active</value>
+      <webElementGuid>cc7f45a1-e95e-4207-98ec-d320604cded3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>e74ae0ec-f06c-45d1-ad5f-7c1a8e0466ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PERGUDANGAN ROMOKALISARI BLOK A-5 GRESIK, Gresik, Jawa Timur</value>
+      <webElementGuid>4a2d013f-0362-4190-9220-fc0b16693246</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;33eab3b1-0d69-45cd-e957-28d2915c03c8&quot;)/ul[@class=&quot;ant-select-dropdown-menu  ant-select-dropdown-menu-root ant-select-dropdown-menu-vertical&quot;]/li[@class=&quot;ant-select-dropdown-menu-item ant-select-dropdown-menu-item-active&quot;]</value>
+      <webElementGuid>7b8d0047-dfe8-4ac3-812f-e846739c9727</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='33eab3b1-0d69-45cd-e957-28d2915c03c8']/ul/li</value>
+      <webElementGuid>7100cae7-e38b-4582-ab6e-2de136e1c107</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='JL. RAYA DARMO NO 54-56, Surabaya, Jawa Timur'])[2]/following::li[1]</value>
+      <webElementGuid>784cfe34-b019-4944-b9a6-5072011da4ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BE631 - PT BEAUTY KASATAMA INDONESIA'])[2]/following::li[2]</value>
+      <webElementGuid>3ea0c09d-756d-4048-bc4f-306cd1d5a52c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='JL. RAYA MANTUP NO. KM 24 SUKORAME, KEDUNGSOKO, KEC.MANTUP, Lamongan, Jawa Timur'])[1]/preceding::li[1]</value>
+      <webElementGuid>200dedee-3dd0-4393-b188-6f09c40c7379</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='PERGUDANGAN ROMOKALISARI BLOK A-5 GRESIK, Gresik, Jawa Timur']/parent::*</value>
+      <webElementGuid>5bf3e2f6-20f5-413d-9559-31725984b31e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/div/div/ul/li</value>
+      <webElementGuid>6a9c0665-869e-45a0-9801-61634196eacb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[@title = 'PERGUDANGAN ROMOKALISARI BLOK A-5 GRESIK, Gresik, Jawa Timur' and (text() = 'PERGUDANGAN ROMOKALISARI BLOK A-5 GRESIK, Gresik, Jawa Timur' or . = 'PERGUDANGAN ROMOKALISARI BLOK A-5 GRESIK, Gresik, Jawa Timur')]</value>
+      <webElementGuid>7bc33727-eb6c-4a14-a6ac-f7a55f9ea48c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

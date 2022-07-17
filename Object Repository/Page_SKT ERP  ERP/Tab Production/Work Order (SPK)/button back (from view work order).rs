@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button back (from view work order)</name>
+   <tag></tag>
+   <elementGuidId>399e9a97-b0e4-4a9e-8db1-dc5f78c869e9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button[name=&quot;back-button&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@name='back-button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0fb21d8e-8e6e-4167-9f84-5a5d180a93e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>back-button</value>
+      <webElementGuid>309711cf-5cf9-4238-83e0-6b716bce3db8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9797b9ed-2186-4a0f-88b0-c43fc803ef31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-btn back-button  ant-btn-default ant-btn-icon-only</value>
+      <webElementGuid>b92c08db-8396-47ed-a77d-16eb6d5dd2fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react-app&quot;)/div[@class=&quot;container&quot;]/main[@class=&quot;layout&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;canvas&quot;]/div[@class=&quot;canvas--content add-edit-view-data&quot;]/button[@class=&quot;ant-btn back-button  ant-btn-default ant-btn-icon-only&quot;]</value>
+      <webElementGuid>801e2258-698b-4147-94b5-3bf6fdd9a456</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@name='back-button']</value>
+      <webElementGuid>dbabf5fa-11ed-4d1d-b9d2-4b0310176717</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react-app']/div/main/section/div/div[2]/button</value>
+      <webElementGuid>72b78373-617c-4cf4-8c21-6926df8fddb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View'])[1]/following::button[1]</value>
+      <webElementGuid>cbac6bc9-36bf-4761-b216-50c9dfc1177d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Order'])[1]/following::button[1]</value>
+      <webElementGuid>01b28a7f-14f3-47ca-b660-5ed0f38e0956</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No SPK Set'])[1]/preceding::button[1]</value>
+      <webElementGuid>82e438f7-e028-42cf-a43d-7b036a0369bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>4b2adb88-0aac-43b5-9cd9-5d3f7ff6c930</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@name = 'back-button' and @type = 'button']</value>
+      <webElementGuid>ac433f9f-7ada-42d4-9061-66d42d5f80b3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

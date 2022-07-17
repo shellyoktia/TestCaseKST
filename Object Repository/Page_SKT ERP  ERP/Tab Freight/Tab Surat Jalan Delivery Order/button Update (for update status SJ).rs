@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button Update (for update status SJ)</name>
+   <tag></tag>
+   <elementGuidId>5f89f3e7-b2cf-499e-b416-ea4fd543cff6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@name='update']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'update' and @type = 'button' and (text() = 'Update' or . = 'Update')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button[name=&quot;update&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8528c3a1-c0e0-402a-805f-9d139796f21b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>update</value>
+      <webElementGuid>4a240c38-9250-4312-a645-752b67a8e595</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9b2bb203-b766-43bd-9a9c-261762d49451</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-btn ant-btn-primary</value>
+      <webElementGuid>00a96404-ded1-41bc-8850-a18c30b39a79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Update</value>
+      <webElementGuid>2c2b5bd0-820e-40b6-8aa1-4aacbd375061</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react-app&quot;)/div[@class=&quot;container&quot;]/main[@class=&quot;layout&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;canvas&quot;]/div[@class=&quot;canvas--content deliveryorder&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-row-flex ant-row-flex-start ant-row-flex-top&quot;]/div[@class=&quot;ant-col ant-col-xs-24 ant-col-lg-12&quot;]/div[@class=&quot;ant-btn-group&quot;]/button[@class=&quot;ant-btn ant-btn-primary&quot;]</value>
+      <webElementGuid>fcbd79fb-7ea7-483f-a512-986074d5bdfb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@name='update']</value>
+      <webElementGuid>649c7687-812e-4bea-a482-7a2619ae19ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react-app']/div/main/section/div/div[2]/div[2]/div/div/div/button[6]</value>
+      <webElementGuid>479740d7-71d9-4985-9028-268762405555</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export XLS'])[1]/following::button[1]</value>
+      <webElementGuid>907a6693-d1c3-4b31-b0bd-92dd429e5a2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export PDF'])[1]/following::button[2]</value>
+      <webElementGuid>5cb1229f-7ad2-4a22-9ae5-c65b2b8d589c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total 8 items'])[1]/preceding::button[1]</value>
+      <webElementGuid>5e548261-6fae-43f4-83df-00391134f44e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[6]</value>
+      <webElementGuid>e341436b-b16c-4252-9425-c08a7c8ea353</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@name = 'update' and @type = 'button' and (text() = 'Update' or . = 'Update')]</value>
+      <webElementGuid>3e3da75e-0c1b-4f14-96b6-b63fa2e76974</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

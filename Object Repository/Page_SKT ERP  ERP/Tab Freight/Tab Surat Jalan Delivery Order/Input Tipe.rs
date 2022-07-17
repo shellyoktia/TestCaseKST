@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input Tipe</name>
+   <tag></tag>
+   <elementGuidId>d19b179e-9508-45b0-9124-7bb3d1028476</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[@id='react-app']/div[1]/main[1]/section[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[2]/div[2]/div[1]/span[1]/div[1]/div[1]/span[1]/i[1]/*[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.ant-select-search__field</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>706a6201-3f24-4541-81d8-c6a8962573cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>0f3cf09b-e671-4223-aff3-80b9d07aee85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-select-search__field</value>
+      <webElementGuid>a9339649-5c9f-4d2a-9fa1-9dce5d44b686</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react-app&quot;)/div[@class=&quot;container&quot;]/main[@class=&quot;layout&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;canvas&quot;]/div[@class=&quot;canvas--content add-edit-view-data&quot;]/form[@class=&quot;data-form&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-24&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control&quot;]/span[@class=&quot;ant-form-item-children&quot;]/div[@class=&quot;select-component__container  ant-select ant-select-open ant-select-focused ant-select-enabled ant-select-allow-clear&quot;]/div[@class=&quot;ant-select-selection
+            ant-select-selection--single&quot;]/div[@class=&quot;ant-select-selection__rendered&quot;]/div[@class=&quot;ant-select-search ant-select-search--inline&quot;]/div[@class=&quot;ant-select-search__field__wrap&quot;]/input[@class=&quot;ant-select-search__field&quot;]</value>
+      <webElementGuid>08d8da36-8b98-4702-91a1-6c2fc333d964</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='']</value>
+      <webElementGuid>9b0258bd-8eba-405b-9f4c-ecbcf3655626</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react-app']/div/main/section/div/div[2]/form/div/div/div[2]/div[2]/div/span/div/div/div/div[2]/div/input</value>
+      <webElementGuid>a9ace4c8-a5e1-4181-bd54-c54f05919b37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/input</value>
+      <webElementGuid>5b25c138-f8cd-4c25-a55f-41843b13141f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Release</name>
+   <tag></tag>
+   <elementGuidId>8a61db3b-fc54-4611-8f6e-cbc9a0792ee3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-table-body-inner > table.ant-table-fixed > tbody.ant-table-tbody > tr.ant-table-row.ant-table-row-hover.ant-table-row-level-0 > td.ant-table-row-cell-break-word > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='react-app']/div/main/section/div/div[2]/div[2]/div[2]/div/div/div/div/div[2]/div[2]/div/table/tbody/tr/td/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>11bf3f26-3973-4bfb-b0aa-c7fecdd60cea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Release</value>
+      <webElementGuid>2eb05ef3-6e35-4f20-b7d2-bf1788449137</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react-app&quot;)/div[@class=&quot;container&quot;]/main[@class=&quot;layout&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;canvas&quot;]/div[@class=&quot;canvas--content soreleasewo&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-table-wrapper table&quot;]/div[@class=&quot;ant-spin-nested-loading&quot;]/div[@class=&quot;ant-spin-container&quot;]/div[@class=&quot;ant-table ant-table-middle ant-table-fixed-header ant-table-layout-fixed ant-table-scroll-position-left&quot;]/div[@class=&quot;ant-table-content&quot;]/div[@class=&quot;ant-table-fixed-right&quot;]/div[@class=&quot;ant-table-body-outer&quot;]/div[@class=&quot;ant-table-body-inner&quot;]/table[@class=&quot;ant-table-fixed&quot;]/tbody[@class=&quot;ant-table-tbody&quot;]/tr[@class=&quot;ant-table-row  ant-table-row-hover ant-table-row-level-0&quot;]/td[@class=&quot;ant-table-row-cell-break-word&quot;]/a[1]</value>
+      <webElementGuid>0a4d8329-8870-48d0-9873-c1ed29313312</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react-app']/div/main/section/div/div[2]/div[2]/div[2]/div/div/div/div/div[2]/div[2]/div/table/tbody/tr/td/a</value>
+      <webElementGuid>013b4c09-8c55-4c75-873c-74f8f705c689</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Release')])[3]</value>
+      <webElementGuid>dc7a4e0b-0fa6-44c9-a5ea-4aea3673f210</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Actions'])[2]/following::a[1]</value>
+      <webElementGuid>a06e9722-53fb-4fa2-b50a-4a6899b2ccb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='production'])[5]/following::a[1]</value>
+      <webElementGuid>832ef44f-3ea3-4f5e-96a0-c49867b18546</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Release'])[4]/preceding::a[1]</value>
+      <webElementGuid>43a511d5-1046-467f-9167-24aa666ae9b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reschedule'])[5]/preceding::a[2]</value>
+      <webElementGuid>fe796e39-b01b-4c49-b1a1-bd1b8fa29ef5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/table/tbody/tr/td/a</value>
+      <webElementGuid>7c854415-a86d-4b51-b810-a806ab8afdc9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Release' or . = 'Release')]</value>
+      <webElementGuid>caa8c2c4-3bbc-4306-953d-02e45cd7fd7d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

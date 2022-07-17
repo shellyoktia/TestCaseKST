@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demo 28 Juni 2022" time="106.434" tests="2" failures="0" errors="0">
+   <testsuite name="Demo 28 Juni 2022" tests="2" failures="0" errors="0" time="106.434" skipped="0" timestamp="2022-06-27 19:22:12" hostname="Shelly - LAPTOP-E00FH6K0.mshome.net" id="Test Suites/Demo 28 Juni 2022">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Shelly\\git\\test_ui\\test_ui\\Reports\\20220627_192203\\Demo 28 Juni 2022\\20220627_192203"/>
+         <property name="logFiles" value="C:\\Users\\Shelly\\git\\test_ui\\test_ui\\Reports\\20220627_192203\\Demo 28 Juni 2022\\20220627_192203\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Shelly - LAPTOP-E00FH6K0.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 103.0.5060.53"/>
+         <property name="hostAddress" value="172.29.16.1"/>
+         <property name="sessionId" value="7072d981772a8f6d9b16a76b7ace4e9c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Demo 28 Juni 2022/Create Sales Order with 11prct PPN (Box Layer)" time="49.696" classname="Test Cases/Demo 28 Juni 2022/Create Sales Order with 11prct PPN (Box Layer)" status="PASSED">
+         <system-out><![CDATA[2022-06-27 19:22:12 - [TEST_CASE][PASSED] - Test Cases/Demo 28 Juni 2022/Create Sales Order with 11prct PPN (Box Layer): Test Cases/Demo 28 Juni 2022/Create Sales Order with 11prct PPN (Box Layer)
+
+2022-06-27 19:22:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-27 19:22:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-27 19:22:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-27 19:22:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-27 19:22:16 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3001/login"): Navigate to 'http://localhost:3001/login' successfully
+
+2022-06-27 19:22:18 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3001/login' successfully
+
+2022-06-27 19:22:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_SKT ERP  ERP/Login/input_login_username"), "devshelly"): Text 'devshelly' is set on object 'Object Repository/Page_SKT ERP  ERP/Login/input_login_username'
+
+2022-06-27 19:22:19 - [MESSAGE][PASSED] - Text 'devshelly' is set on object 'Object Repository/Page_SKT ERP  ERP/Login/input_login_username'
+
+2022-06-27 19:22:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_SKT ERP  ERP/Login/input_login_password"), "bD8Rq1FIAurX2vfab/lFTQ=="): Text ****** has been set on object 'Object Repository/Page_SKT ERP  ERP/Login/input_login_password'
+
+2022-06-27 19:22:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SKT ERP  ERP/Login/input_login_password'
+
+2022-06-27 19:22:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-27 19:22:19 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-27 19:22:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SKT ERP  ERP/Login/button_login")): Object: 'Object Repository/Page_SKT ERP  ERP/Login/button_login' is clicked on
+
+2022-06-27 19:22:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Login/button_login' is clicked on
+
+2022-06-27 19:22:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SKT ERP  ERP/Tab Sales/Tab Sales")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Tab Sales' is clicked on
+
+2022-06-27 19:22:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Tab Sales' is clicked on
+
+2022-06-27 19:22:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Tab Sales Order")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Tab Sales Order' is clicked on
+
+2022-06-27 19:22:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Tab Sales Order' is clicked on
+
+2022-06-27 19:22:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Add New Sales Order")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Add New Sales Order' is clicked on
+
+2022-06-27 19:22:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Add New Sales Order' is clicked on
+
+2022-06-27 19:22:31 - [TEST_STEP][PASSED] - no_Sales_order_box_layer = "bxldhyr": null
+
+2022-06-27 19:22:31 - [TEST_STEP][PASSED] - noSalesOrderBoxLayer = no_Sales_order_box_layer: null
+
+2022-06-27 19:22:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_SKT ERP  ERP/Tab Sales/Sales Order/Input No Sales Order"), no_Sales_order_box_layer): Text 'bxldhyr' is set on object 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input No Sales Order'
+
+2022-06-27 19:22:33 - [MESSAGE][PASSED] - Text 'bxldhyr' is set on object 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input No Sales Order'
+
+2022-06-27 19:22:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Sales Person"), "sujadi"): Text 'sujadi' is set on object 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Sales Person'
+
+2022-06-27 19:22:34 - [MESSAGE][PASSED] - Text 'sujadi' is set on object 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Sales Person'
+
+2022-06-27 19:22:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-27 19:22:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-27 19:22:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Constant/Sales/303 - Sujadi")): Object: 'Object Repository/Page_SKT ERP  ERP/Constant/Sales/303 - Sujadi' is clicked on
+
+2022-06-27 19:22:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Constant/Sales/303 - Sujadi' is clicked on
+
+2022-06-27 19:22:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Tab Sales/Sales Order/Customer Field")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Customer Field' is clicked on
+
+2022-06-27 19:22:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Customer Field' is clicked on
+
+2022-06-27 19:22:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Customer"), "pinrang"): Text 'pinrang' is set on object 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Customer'
+
+2022-06-27 19:22:39 - [MESSAGE][PASSED] - Text 'pinrang' is set on object 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Customer'
+
+2022-06-27 19:22:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-27 19:22:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-27 19:22:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Constant/Customer/PT Pinrang Pantai Indah")): Object: 'Object Repository/Page_SKT ERP  ERP/Constant/Customer/PT Pinrang Pantai Indah' is clicked on
+
+2022-06-27 19:22:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Constant/Customer/PT Pinrang Pantai Indah' is clicked on
+
+2022-06-27 19:22:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Tab Sales/Sales Order/Billing Address Field")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Billing Address Field' is clicked on
+
+2022-06-27 19:22:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Billing Address Field' is clicked on
+
+2022-06-27 19:22:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Constant/Address/Billing Address PT Pinrang Pantai Indah")): Object: 'Object Repository/Page_SKT ERP  ERP/Constant/Address/Billing Address PT Pinrang Pantai Indah' is clicked on
+
+2022-06-27 19:22:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Constant/Address/Billing Address PT Pinrang Pantai Indah' is clicked on
+
+2022-06-27 19:22:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Tab Sales/Sales Order/Shipping Address Field")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Shipping Address Field' is clicked on
+
+2022-06-27 19:22:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Shipping Address Field' is clicked on
+
+2022-06-27 19:22:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Constant/Address/Shipping Address PT Pinrang Pantai Indah")): Object: 'Object Repository/Page_SKT ERP  ERP/Constant/Address/Shipping Address PT Pinrang Pantai Indah' is clicked on
+
+2022-06-27 19:22:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Constant/Address/Shipping Address PT Pinrang Pantai Indah' is clicked on
+
+2022-06-27 19:22:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Tab Sales/Sales Order/i_tambah item")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/i_tambah item' is clicked on
+
+2022-06-27 19:22:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/i_tambah item' is clicked on
+
+2022-06-27 19:22:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Tab Sales/Sales Order/Type Field")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Type Field' is clicked on
+
+2022-06-27 19:22:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Type Field' is clicked on
+
+2022-06-27 19:22:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Tab Sales/Sales Order/Tipe Box")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Tipe Box' is clicked on
+
+2022-06-27 19:22:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Tipe Box' is clicked on
+
+2022-06-27 19:22:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Tab Sales/Sales Order/MasterCard Field")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/MasterCard Field' is clicked on
+
+2022-06-27 19:22:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/MasterCard Field' is clicked on
+
+2022-06-27 19:22:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Constant/Mastercard/PT Pinrang Pantai Indah (10849 - 008420 - DUS CARMEL MOONCAKE - K150 0 0 M1)")): Object: 'Object Repository/Page_SKT ERP  ERP/Constant/Mastercard/PT Pinrang Pantai Indah (10849 - 008420 - DUS CARMEL MOONCAKE - K150 0 0 M1)' is clicked on
+
+2022-06-27 19:22:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Constant/Mastercard/PT Pinrang Pantai Indah (10849 - 008420 - DUS CARMEL MOONCAKE - K150 0 0 M1)' is clicked on
+
+2022-06-27 19:22:49 - [TEST_STEP][PASSED] - qty = "100": null
+
+2022-06-27 19:22:49 - [TEST_STEP][PASSED] - qtySalesOrderBoxLayer = qty: null
+
+2022-06-27 19:22:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Quantity"), qty): Text '100' is set on object 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Quantity'
+
+2022-06-27 19:22:50 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Quantity'
+
+2022-06-27 19:22:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Tab Sales/Sales Order/Unit Field")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Unit Field' is clicked on
+
+2022-06-27 19:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Unit Field' is clicked on
+
+2022-06-27 19:22:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Unit Pcs")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Unit Pcs' is clicked on
+
+2022-06-27 19:22:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Unit Pcs' is clicked on
+
+2022-06-27 19:22:51 - [TEST_STEP][PASSED] - price = "9880": null
+
+2022-06-27 19:22:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Harga"), price): Text '9880' is set on object 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Harga'
+
+2022-06-27 19:22:52 - [MESSAGE][PASSED] - Text '9880' is set on object 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Harga'
+
+2022-06-27 19:22:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Tanggal Kirim")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Tanggal Kirim' is clicked on
+
+2022-06-27 19:22:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Tanggal Kirim' is clicked on
+
+2022-06-27 19:22:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Tanggal 30")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Tanggal 30' is clicked on
+
+2022-06-27 19:22:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Tanggal 30' is clicked on
+
+2022-06-27 19:22:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Save Sales Order Line")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Save Sales Order Line' is clicked on
+
+2022-06-27 19:22:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Save Sales Order Line' is clicked on
+
+2022-06-27 19:22:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Tab Sales/Sales Order/Edit Sales Order Line 2")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Edit Sales Order Line 2' is clicked on
+
+2022-06-27 19:22:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Edit Sales Order Line 2' is clicked on
+
+2022-06-27 19:22:56 - [TEST_STEP][PASSED] - price2 = "9800": null
+
+2022-06-27 19:22:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Harga"), price2): Text '9800' is set on object 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Harga'
+
+2022-06-27 19:22:57 - [MESSAGE][PASSED] - Text '9800' is set on object 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Harga'
+
+2022-06-27 19:22:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Save Sales Order Line")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Save Sales Order Line' is clicked on
+
+2022-06-27 19:22:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Save Sales Order Line' is clicked on
+
+2022-06-27 19:22:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Tab Sales/Sales Order/Edit Sales Order Line 3")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Edit Sales Order Line 3' is clicked on
+
+2022-06-27 19:22:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Edit Sales Order Line 3' is clicked on
+
+2022-06-27 19:22:59 - [TEST_STEP][PASSED] - price3 = "10800": null
+
+2022-06-27 19:22:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Harga"), price3): Text '10800' is set on object 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Harga'
+
+2022-06-27 19:23:00 - [MESSAGE][PASSED] - Text '10800' is set on object 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Harga'
+
+2022-06-27 19:23:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Save Sales Order Line")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Save Sales Order Line' is clicked on
+
+2022-06-27 19:23:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Save Sales Order Line' is clicked on
+
+2022-06-27 19:23:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Tab Sales/Sales Order/Save Sales Order")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Save Sales Order' is clicked on
+
+2022-06-27 19:23:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Save Sales Order' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Demo 28 Juni 2022/Release Sales Order Box Layer" time="56.389" classname="Test Cases/Demo 28 Juni 2022/Release Sales Order Box Layer" status="PASSED">
+         <system-out><![CDATA[2022-06-27 19:23:02 - [TEST_CASE][PASSED] - Test Cases/Demo 28 Juni 2022/Release Sales Order Box Layer: Test Cases/Demo 28 Juni 2022/Release Sales Order Box Layer
+
+2022-06-27 19:23:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-27 19:23:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-06-27 19:23:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-27 19:23:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-27 19:23:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-27 19:23:05 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3001/login"): Navigate to 'http://localhost:3001/login' successfully
+
+2022-06-27 19:23:07 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3001/login' successfully
+
+2022-06-27 19:23:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_SKT ERP  ERP/Login/input_login_username"), "devshelly"): Text 'devshelly' is set on object 'Object Repository/Page_SKT ERP  ERP/Login/input_login_username'
+
+2022-06-27 19:23:08 - [MESSAGE][PASSED] - Text 'devshelly' is set on object 'Object Repository/Page_SKT ERP  ERP/Login/input_login_username'
+
+2022-06-27 19:23:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_SKT ERP  ERP/Login/input_login_password"), "bD8Rq1FIAurX2vfab/lFTQ=="): Text ****** has been set on object 'Object Repository/Page_SKT ERP  ERP/Login/input_login_password'
+
+2022-06-27 19:23:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SKT ERP  ERP/Login/input_login_password'
+
+2022-06-27 19:23:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-27 19:23:09 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-27 19:23:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SKT ERP  ERP/Login/button_login")): Object: 'Object Repository/Page_SKT ERP  ERP/Login/button_login' is clicked on
+
+2022-06-27 19:23:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Login/button_login' is clicked on
+
+2022-06-27 19:23:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SKT ERP  ERP/Tab Sales/Tab Sales")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Tab Sales' is clicked on
+
+2022-06-27 19:23:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Tab Sales' is clicked on
+
+2022-06-27 19:23:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Tab Release Sales Order")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Tab Release Sales Order' is clicked on
+
+2022-06-27 19:23:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Tab Release Sales Order' is clicked on
+
+2022-06-27 19:23:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Button Filters")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Button Filters' is clicked on
+
+2022-06-27 19:23:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Button Filters' is clicked on
+
+2022-06-27 19:23:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Filters by No SO")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Filters by No SO' is clicked on
+
+2022-06-27 19:23:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Filters by No SO' is clicked on
+
+2022-06-27 19:23:32 - [TEST_STEP][PASSED] - noSalesOrder = noSalesOrderBoxLayer: null
+
+2022-06-27 19:23:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Filters by No SO"), noSalesOrder): Text 'bxldhyr' is set on object 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Filters by No SO'
+
+2022-06-27 19:23:32 - [MESSAGE][PASSED] - Text 'bxldhyr' is set on object 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Filters by No SO'
+
+2022-06-27 19:23:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Tab Sales/Release Sales Order/button Search in Filters")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order/button Search in Filters' is clicked on
+
+2022-06-27 19:23:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order/button Search in Filters' is clicked on
+
+2022-06-27 19:23:33 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_SKT ERP  ERP/Tab Sales/Release Sales Order/button Search in Filters"), 30): Scroll to object 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order/button Search in Filters' successfully
+
+2022-06-27 19:23:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order/button Search in Filters' successfully
+
+2022-06-27 19:23:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-27 19:23:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-27 19:23:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Release")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Release' is clicked on
+
+2022-06-27 19:23:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Release' is clicked on
+
+2022-06-27 19:23:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Tab Sales/Release Sales Order/button Ya for Release Sales Order")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order/button Ya for Release Sales Order' is clicked on
+
+2022-06-27 19:23:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order/button Ya for Release Sales Order' is clicked on
+
+2022-06-27 19:23:41 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Assign"), 30): Scroll to object 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Assign' successfully
+
+2022-06-27 19:23:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Assign' successfully
+
+2022-06-27 19:23:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Assign")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Assign' is clicked on
+
+2022-06-27 19:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Assign' is clicked on
+
+2022-06-27 19:23:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Tab Sales/Release Sales Order/button_Ya")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order/button_Ya' is clicked on
+
+2022-06-27 19:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order/button_Ya' is clicked on
+
+2022-06-27 19:23:43 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-27 19:23:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-27 19:23:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Tab Sales/Tab Sales")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Tab Sales' is clicked on
+
+2022-06-27 19:23:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Tab Sales' is clicked on
+
+2022-06-27 19:23:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Tab Sales/Release Sales Order - Approval/Tab Release Sales Order - Approval")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order - Approval/Tab Release Sales Order - Approval' is clicked on
+
+2022-06-27 19:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order - Approval/Tab Release Sales Order - Approval' is clicked on
+
+2022-06-27 19:23:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Tab Sales/Release Sales Order - Approval/Approve")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order - Approval/Approve' is clicked on
+
+2022-06-27 19:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order - Approval/Approve' is clicked on
+
+2022-06-27 19:23:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_SKT ERP  ERP/Tab Sales/Release Sales Order - Approval/button Ya for Approve")): Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order - Approval/button Ya for Approve' is clicked on
+
+2022-06-27 19:23:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SKT ERP  ERP/Tab Sales/Release Sales Order - Approval/button Ya for Approve' is clicked on
+
+2022-06-27 19:23:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-27 19:23:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-27 19:23:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-27 19:23:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-27 19:22:12 - [TEST_SUITE][PASSED] - Demo 28 Juni 2022: Test Cases/Demo 28 Juni 2022/Release Sales Order Box Layer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

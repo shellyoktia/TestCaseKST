@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Tanggal 30</name>
+   <tag></tag>
+   <elementGuidId>9e3a884a-6a4f-4c3e-8c84-3561b4b94a4d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sb'])[1]/following::div[33]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr.ant-calendar-current-week.ant-calendar-active-week > td.ant-calendar-cell.ant-calendar-last-day-of-month > div.ant-calendar-date</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fd7394da-92a5-4f8c-9d01-d1e82e110491</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-calendar-date</value>
+      <webElementGuid>fd41b6f6-1957-4abc-8e2e-fcb0fccf93ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>624512e8-e665-48a0-afd0-8199a351152d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>02e7c535-f5f7-4ac2-ad9e-5ef9afb90597</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>30</value>
+      <webElementGuid>5c5011a8-598f-4029-b4db-54c329f607a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[6]/div[1]/div[@class=&quot;ant-calendar-picker-container ant-calendar-picker-container-placement-bottomLeft&quot;]/div[@class=&quot;ant-calendar&quot;]/div[@class=&quot;ant-calendar-panel&quot;]/div[@class=&quot;ant-calendar-date-panel&quot;]/div[@class=&quot;ant-calendar-body&quot;]/table[@class=&quot;ant-calendar-table&quot;]/tbody[@class=&quot;ant-calendar-tbody&quot;]/tr[@class=&quot;ant-calendar-current-week ant-calendar-active-week&quot;]/td[@class=&quot;ant-calendar-cell ant-calendar-last-day-of-month&quot;]/div[@class=&quot;ant-calendar-date&quot;]</value>
+      <webElementGuid>6bed849a-c4bb-4de5-a7a5-b49c7243b1f8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sb'])[1]/following::div[33]</value>
+      <webElementGuid>0671fee4-c678-4c26-97bb-4f5a0d20242d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jm'])[1]/following::div[33]</value>
+      <webElementGuid>3f802a95-e957-48f3-94ba-c5b2bb78be13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[1]/preceding::div[10]</value>
+      <webElementGuid>90f9260c-140c-451e-8528-2f1e32d8d1de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[5]/td[5]/div</value>
+      <webElementGuid>003c8880-e633-405e-ae22-36fa1fe2208a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '30' or . = '30')]</value>
+      <webElementGuid>6079b260-bc73-4879-8d37-882c11dd4058</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

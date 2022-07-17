@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PT BEAUTY KASATAMA INDONESIA</name>
+   <tag></tag>
+   <elementGuidId>b52c3238-64be-4423-b15e-feb39dbb8273</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[contains(text(),'BE631 - PT BEAUTY KASATAMA INDONESIA')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.ant-select-dropdown-menu-item.ant-select-dropdown-menu-item-active</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>de7fcb42-36e0-4c67-b4d5-d9de71b48655</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>31a10d79-bf2c-4b47-9e9a-a43bc80b7c2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>unselectable</name>
+      <type>Main</type>
+      <value>on</value>
+      <webElementGuid>431a55c7-8cb5-4a7c-8ff2-6baa54012ae6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>BE631 - PT BEAUTY KASATAMA INDONESIA</value>
+      <webElementGuid>2fb88b1a-2379-4e23-af24-22e277cf1f0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-select-dropdown-menu-item ant-select-dropdown-menu-item-active</value>
+      <webElementGuid>29a2826d-8dd0-4cc1-b89c-4d8228d0bc5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>bb683e53-a74a-407b-8343-02b1a2cce419</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>BE631 - PT BEAUTY KASATAMA INDONESIA</value>
+      <webElementGuid>40bf7c34-1804-4667-b371-59ec371ed4c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;2e84ccd7-f124-4d52-8140-51aad85a201e&quot;)/ul[@class=&quot;ant-select-dropdown-menu  ant-select-dropdown-menu-root ant-select-dropdown-menu-vertical&quot;]/li[@class=&quot;ant-select-dropdown-menu-item ant-select-dropdown-menu-item-active&quot;]</value>
+      <webElementGuid>295a82b3-b06f-4e59-a7d1-17142a8b8836</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='2e84ccd7-f124-4d52-8140-51aad85a201e']/ul/li[2]</value>
+      <webElementGuid>bd505acb-15bd-4bf6-b2a2-6b1b1fdde23c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BE396 - CV BEAUTY KASATAMA'])[1]/following::li[1]</value>
+      <webElementGuid>9fc2f157-bb3c-41af-a92f-2b77275e9983</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alokasi Piutang'])[1]/following::li[3]</value>
+      <webElementGuid>1c5c986d-289b-42ab-acf0-9e3a0178762f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='BE631 - PT BEAUTY KASATAMA INDONESIA']/parent::*</value>
+      <webElementGuid>89c08cee-690f-4b1b-b537-ac02f0a9f091</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div/div/ul/li[2]</value>
+      <webElementGuid>c2ad14f1-f602-482f-90d4-ee52dcf12c71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[@title = 'BE631 - PT BEAUTY KASATAMA INDONESIA' and (text() = 'BE631 - PT BEAUTY KASATAMA INDONESIA' or . = 'BE631 - PT BEAUTY KASATAMA INDONESIA')]</value>
+      <webElementGuid>adca4e23-52b0-4781-b73a-dc9726e5f193</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

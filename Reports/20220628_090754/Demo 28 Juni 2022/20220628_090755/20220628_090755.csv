@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo 28 Juni 2022,Chrome 103.0.5060.66,,,2022-06-28 09:08:08,2022-06-28 09:14:11,6m - 3.475s,FAILED
+,,,,,,,
+Test Cases/Demo 28 Juni 2022/2A_ Verify Calculated Values in Work Order (box partisi1 partisi2),Chrome 103.0.5060.66,,,2022-06-28 09:12:18,2022-06-28 09:14:11,1m - 53.157s,FAILED
+"openBrowser("""")",Chrome 103.0.5060.66,,,2022-06-28 09:12:18,2022-06-28 09:12:21,2.272s,PASSED
+"navigateToUrl(""http://localhost:3001/login"")",Chrome 103.0.5060.66,,,2022-06-28 09:12:21,2022-06-28 09:12:22,1.159s,PASSED
+"setText(findTestObject(""Object Repository/Page_SKT ERP  ERP/Login/input_login_username""), ""devshelly"")",Chrome 103.0.5060.66,,,2022-06-28 09:12:22,2022-06-28 09:14:11,1m - 49.672s,FAILED

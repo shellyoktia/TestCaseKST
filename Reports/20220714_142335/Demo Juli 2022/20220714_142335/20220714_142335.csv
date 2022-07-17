@@ -1,0 +1,431 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo Juli 2022,Chrome 103.0.5060.114,,,2022-07-14 14:23:42,2022-07-14 14:26:30,2m - 48.253s,FAILED
+,,,,,,,
+Test Cases/SKT ERP/Production/3 - 2B_ Verify Calculated Values in Work Order (box layer1 layer2),Chrome 103.0.5060.114,,,2022-07-14 14:23:42,2022-07-14 14:25:19,1m - 36.392s,FAILED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-14 14:23:43,2022-07-14 14:23:46,3.283s,PASSED
+"navigateToUrl(""http://localhost:3001/login"")",Chrome 103.0.5060.114,,,2022-07-14 14:23:46,2022-07-14 14:23:48,1.776s,PASSED
+"setText(findTestObject(""Object Repository/Page_SKT ERP  ERP/Login/input_login_username""), ""devshelly"")",Chrome 103.0.5060.114,,,2022-07-14 14:23:48,2022-07-14 14:23:49,1.014s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_SKT ERP  ERP/Login/input_login_password""), ""bD8Rq1FIAurX2vfab/lFTQ=="")",Chrome 103.0.5060.114,,,2022-07-14 14:23:49,2022-07-14 14:23:50,0.561s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-14 14:23:50,2022-07-14 14:23:50,0.148s,PASSED
+driver = getWebDriver(),Chrome 103.0.5060.114,,,2022-07-14 14:23:50,2022-07-14 14:23:50,0.027s,PASSED
+"click(findTestObject(""Object Repository/Page_SKT ERP  ERP/Login/button_login""))",Chrome 103.0.5060.114,,,2022-07-14 14:23:50,2022-07-14 14:23:51,0.520s,PASSED
+"click(findTestObject(""Object Repository/Page_SKT ERP  ERP/Tab Sales/Tab Sales""))",Chrome 103.0.5060.114,,,2022-07-14 14:23:51,2022-07-14 14:23:53,2.307s,PASSED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Tab Release Sales Order""))",Chrome 103.0.5060.114,,,2022-07-14 14:23:53,2022-07-14 14:23:54,1.279s,PASSED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Button Filters""))",Chrome 103.0.5060.114,,,2022-07-14 14:23:54,2022-07-14 14:24:12,17.985s,PASSED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Filters by No SO""))",Chrome 103.0.5060.114,,,2022-07-14 14:24:12,2022-07-14 14:24:13,0.510s,PASSED
+"noSalesOrder = ""kjdbj""",Chrome 103.0.5060.114,,,2022-07-14 14:24:13,2022-07-14 14:24:13,0.000s,PASSED
+newQty = 100,Chrome 103.0.5060.114,,,2022-07-14 14:24:13,2022-07-14 14:24:13,0.001s,PASSED
+"setText(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Filters by No SO""), noSalesOrder)",Chrome 103.0.5060.114,,,2022-07-14 14:24:13,2022-07-14 14:24:13,0.808s,PASSED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/button Search in Filters""))",Chrome 103.0.5060.114,,,2022-07-14 14:24:13,2022-07-14 14:24:14,0.643s,PASSED
+"scrollToElement(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/button Search in Filters""), 30)",Chrome 103.0.5060.114,,,2022-07-14 14:24:14,2022-07-14 14:24:15,1.069s,PASSED
+delay(3),Chrome 103.0.5060.114,,,2022-07-14 14:24:15,2022-07-14 14:24:18,3.055s,PASSED
+"Table = driver.findElement(By.xpath(""/html[1]/body[1]/div[1]/div[1]/main[1]/section[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/table[1]/tbody[1]""))",Chrome 103.0.5060.114,,,2022-07-14 14:24:18,2022-07-14 14:24:19,0.318s,PASSED
+"rows_table = Table.findElements(By.tagName(""tr""))",Chrome 103.0.5060.114,,,2022-07-14 14:24:19,2022-07-14 14:24:19,0.286s,PASSED
+rows_count = rows_table.size(),Chrome 103.0.5060.114,,,2022-07-14 14:24:19,2022-07-14 14:24:19,0.002s,PASSED
+isiTable = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 103.0.5060.114,,,2022-07-14 14:24:19,2022-07-14 14:24:19,0.001s,PASSED
+outkrts = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 103.0.5060.114,,,2022-07-14 14:24:19,2022-07-14 14:24:19,0.002s,PASSED
+corr = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 103.0.5060.114,,,2022-07-14 14:24:19,2022-07-14 14:24:19,0.001s,PASSED
+beratbox = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 103.0.5060.114,,,2022-07-14 14:24:19,2022-07-14 14:24:19,0.002s,PASSED
+beratorder = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 103.0.5060.114,,,2022-07-14 14:24:19,2022-07-14 14:24:19,0.001s,PASSED
+berattrim = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 103.0.5060.114,,,2022-07-14 14:24:19,2022-07-14 14:24:19,0.000s,PASSED
+BeratSubstance1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 103.0.5060.114,,,2022-07-14 14:24:19,2022-07-14 14:24:19,0.000s,PASSED
+BeratSubstance2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 103.0.5060.114,,,2022-07-14 14:24:19,2022-07-14 14:24:19,0.000s,PASSED
+BeratSubstance3 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 103.0.5060.114,,,2022-07-14 14:24:19,2022-07-14 14:24:19,0.000s,PASSED
+BeratSubstance4 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 103.0.5060.114,,,2022-07-14 14:24:19,2022-07-14 14:24:19,0.001s,PASSED
+BeratSubstance5 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 103.0.5060.114,,,2022-07-14 14:24:19,2022-07-14 14:24:19,0.000s,PASSED
+noSPKperItem = new java.util.ArrayList(),Chrome 103.0.5060.114,,,2022-07-14 14:24:19,2022-07-14 14:24:19,0.004s,PASSED
+"for ([row = 0, row < rows_count, (row++)])",Chrome 103.0.5060.114,Loop will execute for all the rows of the table,,2022-07-14 14:24:19,2022-07-14 14:24:20,1.044s,PASSED
+allValues = new java.util.ArrayList(),Chrome 103.0.5060.114,,,2022-07-14 14:24:20,2022-07-14 14:24:20,0.001s,PASSED
+array_count = noSPKperItem.size(),Chrome 103.0.5060.114,,,2022-07-14 14:24:20,2022-07-14 14:24:20,0.000s,PASSED
+"for ([arr = 0, arr < array_count, (arr++)])",Chrome 103.0.5060.114,,,2022-07-14 14:24:20,2022-07-14 14:25:18,57.781s,PASSED
+qty = newQty,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+lebarKertasMinimum_box = 1450,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+width_box = 470,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+outkertas_box = 3,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+expected_outkrts_box = outkertas_box,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.002s,PASSED
+actual_otkrts_box = allValues[0],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+"verifyMatch(actual_otkrts_box, expected_outkrts_box, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.016s,PASSED
+constantDoubleJoint_box = 1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+out_box = outkertas_box,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+outKnife_box = 1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+corrBox = constantDoubleJoint_box * Math.floor(newQty / out_box / outKnife_box),Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.114s,PASSED
+expected_corr_box = corrBox,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+actual_corr_box = allValues[1],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+"verifyMatch(actual_corr_box, expected_corr_box, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.002s,PASSED
+weightSheetNettoGram_box = 344.72,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.002s,PASSED
+weight_box = constantDoubleJoint_box * weightSheetNettoGram_box * newQty / 1000,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+beratBoxBox = Math.ceil(weight_box / qty * 1000 * 100) / 100,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.009s,PASSED
+expected_beratbox_box = beratBoxBox,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+actual_beratbox_box = allValues[2],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+"verifyMatch(actual_beratbox_box, expected_beratbox_box, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.034s,FAILED
+beratOrderBox = Math.ceil(weight_box * 100) / 100,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+expected_beratorder_box = beratOrderBox,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+actual_beratorder_box = allValues[3],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+"verifyMatch(actual_beratorder_box, expected_beratorder_box, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.003s,PASSED
+trimWasteGram_box = 29.34,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+beratTrimBox = qty / out_box * trimWasteGram_box / 1000,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+expected_berattrim_box = beratTrimBox,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+actual_berattrim_box = allValues[4],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+"verifyMatch(actual_berattrim_box, expected_berattrim_box, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.003s,FAILED
+qValuebox1 = 150,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+sheetLengthBox1 = 1536,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+minLebarMmSheetBox1 = 1450,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+identifierBox1 = 1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+beratSubstanceBox1 = qValuebox1 / 1000 * sheetLengthBox1 / 1000 * minLebarMmSheetBox1 / 1000 * identifierBox1 * corrBox,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.016s,PASSED
+expected_beratsubstance1_box = beratSubstanceBox1.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.017s,PASSED
+actual_beratsubstance1_box = allValues[5],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+"verifyMatch(actual_beratsubstance1_box, expected_beratsubstance1_box, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.002s,PASSED
+qValuebox2 = 0,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+sheetLengthBox2 = 1536,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+minLebarMmSheetBox2 = 1450,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+identifierBox2 = 1.33,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+beratSubstanceBox2 = qValuebox2 / 1000 * sheetLengthBox2 / 1000 * minLebarMmSheetBox2 / 1000 * identifierBox2 * corrBox,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.003s,PASSED
+expected_beratsubstance2_box = beratSubstanceBox2.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+actual_beratsubstance2_box = allValues[6],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+"verifyMatch(actual_beratsubstance2_box, expected_beratsubstance2_box, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.009s,FAILED
+qValuebox3 = 0,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+sheetLengthBox3 = 1536,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+minLebarMmSheetBox3 = 1450,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+identifierBox3 = 1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+beratSubstanceBox3 = qValuebox3 / 1000 * sheetLengthBox3 / 1000 * minLebarMmSheetBox3 / 1000 * identifierBox3 * corrBox,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+expected_beratsubstance3_box = beratSubstanceBox3.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+actual_beratsubstance3_box = allValues[7],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+"verifyMatch(actual_beratsubstance3_box, expected_beratsubstance3_box, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.007s,FAILED
+qValuebox4 = 125,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+sheetLengthBox4 = 1536,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+minLebarMmSheetBox4 = 1450,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+identifierBox4 = 1.42,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+beratSubstanceBox4 = qValuebox4 / 1000 * sheetLengthBox4 / 1000 * minLebarMmSheetBox4 / 1000 * identifierBox4 * corrBox,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+expected_beratsubstance4_box = beratSubstanceBox4.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+actual_beratsubstance4_box = allValues[8],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+"verifyMatch(actual_beratsubstance4_box, expected_beratsubstance4_box, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.002s,PASSED
+qValuebox5 = 150,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+sheetLengthBox5 = 1536,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+minLebarMmSheetBox5 = 1450,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+identifierBox5 = 1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+beratSubstanceBox5 = qValuebox5 / 1000 * sheetLengthBox5 / 1000 * minLebarMmSheetBox5 / 1000 * identifierBox5 * corrBox,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.002s,PASSED
+expected_beratsubstance5_box = beratSubstanceBox5.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+actual_beratsubstance5_box = allValues[9],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+"verifyMatch(actual_beratsubstance5_box, expected_beratsubstance5_box, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.003s,PASSED
+lebarKertasMinimum_layer1 = 1500,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+width_layer1 = 470,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+outkertas_layer1 = 5,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+expected_outkrts_layer1 = outkertas_layer1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+actual_outkrts_layer1 = allValues[10],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+"verifyMatch(actual_outkrts_layer1, expected_outkrts_layer1, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.003s,PASSED
+constantDoubleJoint_layer1 = 1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+out_layer1 = outkertas_layer1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+outKnife_layer1 = 1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+corrLayer1 = constantDoubleJoint_layer1 * Math.floor(newQty / out_layer1 / outKnife_layer1),Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+expected_corr_layer1 = corrLayer1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+actual_corr_layer1 = allValues[11],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+"verifyMatch(actual_corr_layer1, expected_corr_layer1, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.002s,PASSED
+weightSheetNettoGram_layer1 = 54.65,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+weight_layer1 = constantDoubleJoint_layer1 * weightSheetNettoGram_layer1 * newQty / 1000,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+beratBoxLayer1 = Math.ceil(weight_layer1 / qty * 1000 * 100) / 100,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+expected_beratbox_layer1 = beratBoxLayer1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+actual_beratbox_layer1 = allValues[12],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+"verifyMatch(actual_beratbox_layer1, expected_beratbox_layer1, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.010s,FAILED
+beratOrderLayer1 = Math.ceil(weight_layer1 * 100) / 100,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+expected_beratorder_layer1 = beratOrderLayer1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+actual_beratorder_layer1 = allValues[13],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+"verifyMatch(actual_beratorder_layer1, expected_beratorder_layer1, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.003s,PASSED
+trimWasteGram_layer1 = 4.64,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+length_layer1 = 445,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+lebarKertas_layer1 = 25,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+gsm_layer1 = 125 + 125 * 1.36 + 125,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.002s,PASSED
+beratTrimLayer1 = Math.ceil(corrLayer1 * length_layer1 / 1000 * lebarKertas_layer1 / 1000 * gsm_layer1 / 1000 * 100) / 100,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+expected_berattrim_layer1 = beratTrimLayer1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.002s,PASSED
+actual_berattrim_layer1 = allValues[14],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.002s,PASSED
+"verifyMatch(actual_berattrim_layer1, expected_berattrim_layer1, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.002s,PASSED
+qValuelayer1_1 = 125,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+sheetLengthLayer1_1 = 445,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+minLebarMmSheetLayer1_1 = 1500,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+identifierLayer1_1 = 1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+beratSubstanceLayer1_1 = qValuelayer1_1 / 1000 * sheetLengthLayer1_1 / 1000 * minLebarMmSheetLayer1_1 / 1000 * identifierLayer1_1 * corrLayer1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+expected_beratsubstance1_layer1 = beratSubstanceLayer1_1.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+actual_beratsubstance1_layer1 = allValues[15],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+"verifyMatch(actual_beratsubstance1_layer1, expected_beratsubstance1_layer1, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.003s,PASSED
+qValuelayer1_2 = 125,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+sheetLengthLayer1_2 = 445,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+minLebarMmSheetLayer1_2 = 1500,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+identifierLayer1_2 = 1.33,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+beratSubstanceLayer1_2 = qValuelayer1_2 / 1000 * sheetLengthLayer1_2 / 1000 * minLebarMmSheetLayer1_2 / 1000 * identifierLayer1_2 * corrLayer1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+expected_beratsubstance2_layer1 = beratSubstanceLayer1_2.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+actual_beratsubstance2_layer1 = allValues[16],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+"verifyMatch(actual_beratsubstance2_layer1, expected_beratsubstance2_layer1, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.005s,PASSED
+qValuelayer1_3 = 125,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+sheetLengthLayer1_3 = 445,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+minLebarMmSheetLayer1_3 = 1500,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+identifierLayer1_3 = 1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+beratSubstanceLayer1_3 = qValuelayer1_3 / 1000 * sheetLengthLayer1_3 / 1000 * minLebarMmSheetLayer1_3 / 1000 * identifierLayer1_3 * corrLayer1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+expected_beratsubstance3_layer1 = beratSubstanceLayer1_3.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+actual_beratsubstance3_layer1 = allValues[17],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+"verifyMatch(actual_beratsubstance3_layer1, expected_beratsubstance3_layer1, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.002s,PASSED
+qValuelayer1_4 = 0,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+sheetLengthLayer1_4 = 445,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+minLebarMmSheetLayer1_4 = 1500,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+identifierLayer1_4 = 1.42,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+beratSubstanceLayer1_4 = qValuelayer1_4 / 1000 * sheetLengthLayer1_4 / 1000 * minLebarMmSheetLayer1_4 / 1000 * identifierLayer1_4 * corrLayer1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+expected_beratsubstance4_layer1 = beratSubstanceLayer1_4.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+actual_beratsubstance4_layer1 = allValues[18],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+"verifyMatch(actual_beratsubstance4_layer1, expected_beratsubstance4_layer1, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.004s,FAILED
+qValuelayer1_5 = 0,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+sheetLengthLayer1_5 = 445,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+minLebarMmSheetLayer1_5 = 1500,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+identifierLayer1_5 = 1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+beratSubstanceLayer1_5 = qValuelayer1_5 / 1000 * sheetLengthLayer1_5 / 1000 * minLebarMmSheetLayer1_5 / 1000 * identifierLayer1_5 * corrLayer1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+expected_beratsubstance5_layer1 = beratSubstanceLayer1_5.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+actual_beratsubstance5_layer1 = allValues[19],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+"verifyMatch(actual_beratsubstance5_layer1, expected_beratsubstance5_layer1, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.005s,FAILED
+lebarKertasMinimum_layer2 = 1500,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+width_layer2 = 295,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+outkertas_layer2 = 5,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+expected_outkrts_layer2 = outkertas_layer2,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+actual_outkrts_layer2 = allValues[20],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+"verifyMatch(actual_outkrts_layer2, expected_outkrts_layer2, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.002s,PASSED
+constantDoubleJoint_layer2 = 1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+out_layer2 = outkertas_layer2,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+outKnife_layer2 = 1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+corrLayer2 = constantDoubleJoint_layer2 * Math.floor(newQty / out_layer2 / outKnife_layer2),Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+expected_corr_layer2 = corrLayer2,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+actual_corr_layer2 = allValues[21],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+"verifyMatch(actual_corr_layer2, expected_corr_layer2, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.002s,PASSED
+weightSheetNettoGram_layer2 = 18.42,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+weight_layer2 = constantDoubleJoint_layer2 * weightSheetNettoGram_layer2 * newQty / 1000,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+beratBoxLayer2 = Math.ceil(weight_layer2 / qty * 1000 * 100) / 100,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+expected_beratbox_layer2 = beratBoxLayer2,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+actual_beratbox_layer2 = allValues[22],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+"verifyMatch(actual_beratbox_layer2, expected_beratbox_layer2, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.003s,PASSED
+beratOrderLayer2 = Math.ceil(weight_layer2 * 100) / 100,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+expected_beratorder_layer2 = beratOrderLayer2,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+actual_beratorder_layer2 = allValues[23],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+"verifyMatch(actual_beratorder_layer2, expected_beratorder_layer2, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.003s,PASSED
+trimWasteGram_layer2 = 0.79,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+length_layer2 = 150,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.002s,PASSED
+lebarKertas_layer2 = 25,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+gsm_layer2 = 125 + 125 * 1.36 + 125,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+beratTrimLayer2 = Math.ceil(corrLayer2 * length_layer2 / 1000 * lebarKertas_layer2 / 1000 * gsm_layer2 / 1000 * 100) / 100,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+expected_berattrim_layer2 = beratTrimLayer2,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+actual_berattrim_layer2 = allValues[24],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.002s,PASSED
+"verifyMatch(actual_berattrim_layer2, expected_berattrim_layer2, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.005s,PASSED
+qValuelayer2_1 = 125,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.003s,PASSED
+sheetLengthLayer2_1 = 150,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.003s,PASSED
+minLebarMmSheetLayer2_1 = 1500,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+identifierLayer2_1 = 1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+beratSubstanceLayer2_1 = qValuelayer2_1 / 1000 * sheetLengthLayer2_1 / 1000 * minLebarMmSheetLayer2_1 / 1000 * identifierLayer2_1 * corrLayer2,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+expected_beratsubstance1_layer2 = beratSubstanceLayer2_1.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+actual_beratsubstance1_layer2 = allValues[25],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+"verifyMatch(actual_beratsubstance1_layer2, expected_beratsubstance1_layer2, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.004s,PASSED
+qValuelayer2_2 = 125,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+sheetLengthLayer2_2 = 150,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+minLebarMmSheetLayer2_2 = 1500,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+identifierLayer2_2 = 1.33,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+beratSubstanceLayer2_2 = qValuelayer2_2 / 1000 * sheetLengthLayer2_2 / 1000 * minLebarMmSheetLayer2_2 / 1000 * identifierLayer2_2 * corrLayer2,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+expected_beratsubstance2_layer2 = beratSubstanceLayer2_2.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+actual_beratsubstance2_layer2 = allValues[26],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+"verifyMatch(actual_beratsubstance2_layer2, expected_beratsubstance2_layer2, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.005s,PASSED
+qValuelayer2_3 = 125,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+sheetLengthLayer2_3 = 150,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+minLebarMmSheetLayer2_3 = 1500,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+identifierLayer2_3 = 1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+beratSubstanceLayer2_3 = qValuelayer2_3 / 1000 * sheetLengthLayer2_3 / 1000 * minLebarMmSheetLayer2_3 / 1000 * identifierLayer2_3 * corrLayer2,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+expected_beratsubstance3_layer2 = beratSubstanceLayer2_3.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+actual_beratsubstance3_layer2 = allValues[27],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+"verifyMatch(actual_beratsubstance3_layer2, expected_beratsubstance3_layer2, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.002s,PASSED
+qValuelayer2_4 = 0,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+sheetLengthLayer2_4 = 150,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+minLebarMmSheetLayer2_4 = 1500,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+identifierLayer2_4 = 1.42,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.001s,PASSED
+beratSubstanceLayer2_4 = qValuelayer2_4 / 1000 * sheetLengthLayer2_4 / 1000 * minLebarMmSheetLayer2_4 / 1000 * identifierLayer2_4 * corrLayer2,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+expected_beratsubstance4_layer2 = beratSubstanceLayer2_4.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+actual_beratsubstance4_layer2 = allValues[28],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+"verifyMatch(actual_beratsubstance4_layer2, expected_beratsubstance4_layer2, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.003s,FAILED
+qValuelayer2_5 = 0,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+sheetLengthLayer2_5 = 150,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+minLebarMmSheetLayer2_5 = 1500,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+identifierLayer2_5 = 1,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+beratSubstanceLayer2_5 = qValuelayer2_5 / 1000 * sheetLengthLayer2_5 / 1000 * minLebarMmSheetLayer2_5 / 1000 * identifierLayer2_5 * corrLayer2,Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+expected_beratsubstance5_layer2 = beratSubstanceLayer2_5.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+actual_beratsubstance5_layer2 = allValues[29],Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.000s,PASSED
+"verifyMatch(actual_beratsubstance5_layer2, expected_beratsubstance5_layer2, false)",Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:18,0.004s,FAILED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-14 14:25:18,2022-07-14 14:25:19,0.796s,PASSED
+,,,,,,,
+Test Cases/SKT ERP/Production/2 - 2A_ Verify Calculated Values in Work Order (box partisi1 partisi2),Chrome 103.0.5060.114,,,2022-07-14 14:25:19,2022-07-14 14:26:30,1m - 11.537s,FAILED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-14 14:25:19,2022-07-14 14:25:21,1.398s,PASSED
+"navigateToUrl(""http://localhost:3001/login"")",Chrome 103.0.5060.114,,,2022-07-14 14:25:21,2022-07-14 14:25:22,1.687s,PASSED
+"setText(findTestObject(""Object Repository/Page_SKT ERP  ERP/Login/input_login_username""), ""devshelly"")",Chrome 103.0.5060.114,,,2022-07-14 14:25:22,2022-07-14 14:25:23,0.937s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_SKT ERP  ERP/Login/input_login_password""), ""bD8Rq1FIAurX2vfab/lFTQ=="")",Chrome 103.0.5060.114,,,2022-07-14 14:25:23,2022-07-14 14:25:24,0.481s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-14 14:25:24,2022-07-14 14:25:24,0.138s,PASSED
+driver = getWebDriver(),Chrome 103.0.5060.114,,,2022-07-14 14:25:24,2022-07-14 14:25:24,0.000s,PASSED
+"click(findTestObject(""Object Repository/Page_SKT ERP  ERP/Login/button_login""))",Chrome 103.0.5060.114,,,2022-07-14 14:25:24,2022-07-14 14:25:24,0.406s,PASSED
+"noSalesOrder = ""tesround""",Chrome 103.0.5060.114,,,2022-07-14 14:25:24,2022-07-14 14:25:24,0.000s,PASSED
+newQty = 100,Chrome 103.0.5060.114,,,2022-07-14 14:25:24,2022-07-14 14:25:24,0.000s,PASSED
+"click(findTestObject(""Object Repository/Page_SKT ERP  ERP/Tab Sales/Tab Sales""))",Chrome 103.0.5060.114,,,2022-07-14 14:25:24,2022-07-14 14:25:27,2.170s,PASSED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Tab Release Sales Order""))",Chrome 103.0.5060.114,,,2022-07-14 14:25:27,2022-07-14 14:25:28,1.351s,PASSED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Button Filters""))",Chrome 103.0.5060.114,,,2022-07-14 14:25:28,2022-07-14 14:25:47,18.593s,PASSED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Filters by No SO""))",Chrome 103.0.5060.114,,,2022-07-14 14:25:47,2022-07-14 14:25:47,0.511s,PASSED
+"setText(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Filters by No SO""), noSalesOrder)",Chrome 103.0.5060.114,,,2022-07-14 14:25:47,2022-07-14 14:25:48,0.959s,PASSED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/button Search in Filters""))",Chrome 103.0.5060.114,,,2022-07-14 14:25:48,2022-07-14 14:25:49,0.672s,PASSED
+"scrollToElement(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/button Search in Filters""), 30)",Chrome 103.0.5060.114,,,2022-07-14 14:25:49,2022-07-14 14:25:50,1.031s,PASSED
+delay(3),Chrome 103.0.5060.114,,,2022-07-14 14:25:50,2022-07-14 14:25:53,3.012s,PASSED
+"Table = driver.findElement(By.xpath(""/html[1]/body[1]/div[1]/div[1]/main[1]/section[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/table[1]/tbody[1]""))",Chrome 103.0.5060.114,,,2022-07-14 14:25:53,2022-07-14 14:25:53,0.274s,PASSED
+"rows_table = Table.findElements(By.tagName(""tr""))",Chrome 103.0.5060.114,,,2022-07-14 14:25:53,2022-07-14 14:25:53,0.292s,PASSED
+rows_count = rows_table.size(),Chrome 103.0.5060.114,,,2022-07-14 14:25:53,2022-07-14 14:25:53,0.000s,PASSED
+isiTable = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 103.0.5060.114,,,2022-07-14 14:25:53,2022-07-14 14:25:53,0.000s,PASSED
+outkrts = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 103.0.5060.114,,,2022-07-14 14:25:53,2022-07-14 14:25:53,0.000s,PASSED
+corr = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 103.0.5060.114,,,2022-07-14 14:25:53,2022-07-14 14:25:53,0.000s,PASSED
+beratbox = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 103.0.5060.114,,,2022-07-14 14:25:53,2022-07-14 14:25:53,0.000s,PASSED
+beratorder = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 103.0.5060.114,,,2022-07-14 14:25:53,2022-07-14 14:25:53,0.000s,PASSED
+berattrim = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 103.0.5060.114,,,2022-07-14 14:25:53,2022-07-14 14:25:53,0.000s,PASSED
+BeratSubstance1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 103.0.5060.114,,,2022-07-14 14:25:53,2022-07-14 14:25:53,0.000s,PASSED
+BeratSubstance2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 103.0.5060.114,,,2022-07-14 14:25:53,2022-07-14 14:25:53,0.000s,PASSED
+BeratSubstance3 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 103.0.5060.114,,,2022-07-14 14:25:53,2022-07-14 14:25:53,0.000s,PASSED
+BeratSubstance4 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 103.0.5060.114,,,2022-07-14 14:25:53,2022-07-14 14:25:53,0.000s,PASSED
+BeratSubstance5 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 103.0.5060.114,,,2022-07-14 14:25:53,2022-07-14 14:25:53,0.000s,PASSED
+noSPKperItem = new java.util.ArrayList(),Chrome 103.0.5060.114,,,2022-07-14 14:25:53,2022-07-14 14:25:53,0.000s,PASSED
+"for ([row = 0, row < rows_count, (row++)])",Chrome 103.0.5060.114,Loop will execute for all the rows of the table,,2022-07-14 14:25:53,2022-07-14 14:25:54,0.690s,PASSED
+allValues = new java.util.ArrayList(),Chrome 103.0.5060.114,,,2022-07-14 14:25:54,2022-07-14 14:25:54,0.000s,PASSED
+array_count = noSPKperItem.size(),Chrome 103.0.5060.114,,,2022-07-14 14:25:54,2022-07-14 14:25:54,0.000s,PASSED
+"for ([arr = 0, arr < array_count, (arr++)])",Chrome 103.0.5060.114,,,2022-07-14 14:25:54,2022-07-14 14:26:29,35.482s,PASSED
+qty = newQty,Chrome 103.0.5060.114,,,2022-07-14 14:26:29,2022-07-14 14:26:29,0.000s,PASSED
+lebarKertasMinimum_box = 1500,Chrome 103.0.5060.114,,,2022-07-14 14:26:29,2022-07-14 14:26:30,0.001s,PASSED
+width_box = 366,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+outkertas_box = 4,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+expected_outkrts_box = outkertas_box,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+actual_otkrts_box = allValues[0],Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+"verifyMatch(actual_otkrts_box, expected_outkrts_box, false)",Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.005s,PASSED
+constantDoubleJoint_box = 1,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+out_box = outkertas_box,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+outKnife_box = 1,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+corrBox = constantDoubleJoint_box * Math.floor(newQty / out_box / outKnife_box),Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+expected_corr_box = corrBox,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+actual_corr_box = allValues[1],Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+"verifyMatch(actual_corr_box, expected_corr_box, false)",Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.002s,PASSED
+weightSheetNettoGram_box = 133.08,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+weight_box = constantDoubleJoint_box * weightSheetNettoGram_box * newQty / 1000,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+beratBoxBox = Math.ceil(weight_box / qty * 1000 * 100) / 100,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+expected_beratbox_box = beratBoxBox,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+actual_beratbox_box = allValues[2],Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+"verifyMatch(actual_beratbox_box, expected_beratbox_box, false)",Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+beratOrderBox = Math.ceil(weight_box * 100) / 100,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+expected_beratorder_box = beratOrderBox,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+actual_beratorder_box = allValues[3],Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+"verifyMatch(actual_beratorder_box, expected_beratorder_box, false)",Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+trimWasteGram_box = 13.09,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+beratTrimBox = qty / out_box * trimWasteGram_box / 1000,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+expected_berattrim_box = beratTrimBox,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+actual_berattrim_box = allValues[4],Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+"verifyMatch(actual_berattrim_box, expected_berattrim_box, false)",Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.002s,PASSED
+qValuebox1 = 150,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+sheetLengthBox1 = 824,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+minLebarMmSheetBox1 = 1500,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+identifierBox1 = 1,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+beratSubstanceBox1 = qValuebox1 / 1000 * sheetLengthBox1 / 1000 * minLebarMmSheetBox1 / 1000 * identifierBox1 * corrBox,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+expected_beratsubstance1_box = beratSubstanceBox1.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+actual_beratsubstance1_box = allValues[5],Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+"verifyMatch(actual_beratsubstance1_box, expected_beratsubstance1_box, false)",Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.002s,PASSED
+qValuebox2 = 125,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+sheetLengthBox2 = 824,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+minLebarMmSheetBox2 = 1500,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+identifierBox2 = 1.33,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+beratSubstanceBox2 = qValuebox2 / 1000 * sheetLengthBox2 / 1000 * minLebarMmSheetBox2 / 1000 * identifierBox2 * corrBox,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+expected_beratsubstance2_box = beratSubstanceBox2.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+actual_beratsubstance2_box = allValues[6],Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+"verifyMatch(actual_beratsubstance2_box, expected_beratsubstance2_box, false)",Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.002s,PASSED
+qValuebox3 = 125,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+sheetLengthBox3 = 824,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+minLebarMmSheetBox3 = 1500,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+identifierBox3 = 1,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+beratSubstanceBox3 = qValuebox3 / 1000 * sheetLengthBox3 / 1000 * minLebarMmSheetBox3 / 1000 * identifierBox3 * corrBox,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.002s,PASSED
+expected_beratsubstance3_box = beratSubstanceBox3.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+actual_beratsubstance3_box = allValues[7],Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+"verifyMatch(actual_beratsubstance3_box, expected_beratsubstance3_box, false)",Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.002s,PASSED
+qValuebox4 = 0,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+sheetLengthBox4 = 824,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+minLebarMmSheetBox4 = 1500,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+identifierBox4 = 1.42,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+beratSubstanceBox4 = qValuebox4 / 1000 * sheetLengthBox4 / 1000 * minLebarMmSheetBox4 / 1000 * identifierBox4 * corrBox,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+expected_beratsubstance4_box = beratSubstanceBox4.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+actual_beratsubstance4_box = allValues[8],Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+"verifyMatch(actual_beratsubstance4_box, expected_beratsubstance4_box, false)",Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.003s,FAILED
+qValuebox5 = 0,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+sheetLengthBox5 = 824,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+minLebarMmSheetBox5 = 1500,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+identifierBox5 = 1,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+beratSubstanceBox5 = qValuebox5 / 1000 * sheetLengthBox5 / 1000 * minLebarMmSheetBox5 / 1000 * identifierBox5 * corrBox,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+expected_beratsubstance5_box = beratSubstanceBox5.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+actual_beratsubstance5_box = allValues[9],Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+"verifyMatch(actual_beratsubstance5_box, expected_beratsubstance5_box, false)",Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.002s,FAILED
+lebarKertasMinimum_partisi = 1150,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+width_partisi = 140,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+outkertas_partisi = 5,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+expected_outkrts_partisi = outkertas_partisi,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+actual_outkrts_partisi = allValues[10],Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+"verifyMatch(actual_outkrts_partisi, expected_outkrts_partisi, false)",Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.002s,PASSED
+constantDoubleJoint_partisi = 1,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+out_partisi = outkertas_partisi,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+outKnife_partisi = 1,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+corrPartisi = constantDoubleJoint_partisi * Math.floor(newQty / out_partisi / outKnife_partisi),Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+expected_corr_partisi = corrPartisi,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+actual_corr_partisi = allValues[11],Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+"verifyMatch(actual_corr_partisi, expected_corr_partisi, false)",Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.002s,PASSED
+weightSheetNettoGram_partisi = 53.5,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+weight_partisi = constantDoubleJoint_partisi * weightSheetNettoGram_partisi * newQty / 1000,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+beratBoxPartisi = Math.ceil(weight_partisi / qty * 1000 * 100) / 100,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+expected_beratbox_partisi = beratBoxPartisi,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+actual_beratbox_partisi = allValues[12],Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+"verifyMatch(actual_beratbox_partisi, expected_beratbox_partisi, false)",Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+beratOrderPartisi = Math.ceil(weight_partisi * 100) / 100,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+expected_beratorder_partisi = beratOrderPartisi,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+actual_beratorder_partisi = allValues[13],Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+"verifyMatch(actual_beratorder_partisi, expected_beratorder_partisi, false)",Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.006s,PASSED
+trimWasteGram_partisi = 18.91,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+lengthPartisi = 918,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+lebarKertasPartisi = 50,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+gsmPartisi = 416.25,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+beratTrimPartisi = Math.ceil(corrPartisi * lengthPartisi / 1000 * lebarKertasPartisi / 1000 * gsmPartisi / 1000 * 100) / 100,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+expected_berattrim_partisi = beratTrimPartisi,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+actual_berattrim_partisi = allValues[14],Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+"verifyMatch(actual_berattrim_partisi, expected_berattrim_partisi, false)",Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.002s,PASSED
+qValuepartisi1 = 125,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+sheetLengthPartisi1 = 918,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+minLebarMmSheetPartisi1 = 750,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+identifierPartisi1 = 1,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+beratSubstancePartisi1 = qValuepartisi1 / 1000 * sheetLengthPartisi1 / 1000 * minLebarMmSheetPartisi1 / 1000 * identifierPartisi1 * corrPartisi,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+expected_beratsubstance1_partisi = beratSubstancePartisi1.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+actual_beratsubstance1_partisi = allValues[15],Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+"verifyMatch(actual_beratsubstance1_partisi, expected_beratsubstance1_partisi, false)",Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.002s,PASSED
+qValuepartisi2 = 125,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+sheetLengthPartisi2 = 918,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+minLebarMmSheetPartisi2 = 750,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+identifierPartisi2 = 1.33,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+beratSubstancePartisi2 = qValuepartisi2 / 1000 * sheetLengthPartisi2 / 1000 * minLebarMmSheetPartisi2 / 1000 * identifierPartisi2 * corrPartisi,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+expected_beratsubstance2_partisi = beratSubstancePartisi2.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+actual_beratsubstance2_partisi = allValues[16],Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+"verifyMatch(actual_beratsubstance2_partisi, expected_beratsubstance2_partisi, false)",Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.002s,PASSED
+qValuepartisi3 = 125,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+sheetLengthPartisi3 = 918,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+minLebarMmSheetPartisi3 = 750,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+identifierPartisi3 = 1,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+beratSubstancePartisi3 = qValuepartisi3 / 1000 * sheetLengthPartisi3 / 1000 * minLebarMmSheetPartisi3 / 1000 * identifierPartisi3 * corrPartisi,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+expected_beratsubstance3_partisi = beratSubstancePartisi3.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+actual_beratsubstance3_partisi = allValues[17],Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+"verifyMatch(actual_beratsubstance3_partisi, expected_beratsubstance3_partisi, false)",Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.002s,PASSED
+qValuepartisi4 = 0,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+sheetLengthPartisi4 = 918,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+minLebarMmSheetPartisi4 = 750,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+identifierPartisi4 = 1.42,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+beratSubstancePartisi4 = qValuepartisi4 / 1000 * sheetLengthPartisi4 / 1000 * minLebarMmSheetPartisi4 / 1000 * identifierPartisi4 * corrPartisi,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+expected_beratsubstance4_partisi = beratSubstancePartisi4.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+actual_beratsubstance4_partisi = allValues[18],Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+"verifyMatch(actual_beratsubstance4_partisi, expected_beratsubstance4_partisi, false)",Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.004s,FAILED
+qValuepartisi5 = 0,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+sheetLengthPartisi5 = 918,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+minLebarMmSheetPartisi5 = 750,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+identifierPartisi5 = 1,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+beratSubstancePartisi5 = qValuepartisi5 / 1000 * sheetLengthPartisi5 / 1000 * minLebarMmSheetPartisi5 / 1000 * identifierPartisi5 * corrPartisi,Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+expected_beratsubstance5_partisi = beratSubstancePartisi5.round(2),Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.001s,PASSED
+actual_beratsubstance5_partisi = allValues[19],Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.000s,PASSED
+"verifyMatch(actual_beratsubstance5_partisi, expected_beratsubstance5_partisi, false)",Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.004s,FAILED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-14 14:26:30,2022-07-14 14:26:30,0.819s,PASSED

@@ -1,0 +1,102 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo Juli 2022,Chrome 103.0.5060.66,,,2022-07-06 10:04:28,2022-07-06 10:17:31,13m - 3.723s,FAILED
+,,,,,,,
+Test Cases/SKT ERP/Sales/3 - Create Sales Order with 11prct PPN (Box Layer),Chrome 103.0.5060.66,,,2022-07-06 10:04:28,2022-07-06 10:04:43,15.362s,FAILED
+"openBrowser("""")",Chrome 103.0.5060.66,,,2022-07-06 10:04:28,2022-07-06 10:04:32,3.398s,PASSED
+"navigateToUrl(""http://localhost:3001/login"")",Chrome 103.0.5060.66,,,2022-07-06 10:04:32,2022-07-06 10:04:33,1.552s,PASSED
+"setText(findTestObject(""Object Repository/Page_SKT ERP  ERP/Login/input_login_username""), ""devshelly"")",Chrome 103.0.5060.66,,,2022-07-06 10:04:33,2022-07-06 10:04:34,0.345s,FAILED
+"setEncryptedText(findTestObject(""Object Repository/Page_SKT ERP  ERP/Login/input_login_password""), ""bD8Rq1FIAurX2vfab/lFTQ=="")",Chrome 103.0.5060.66,,,2022-07-06 10:04:34,2022-07-06 10:04:34,0.162s,FAILED
+maximizeWindow(),Chrome 103.0.5060.66,,,2022-07-06 10:04:34,2022-07-06 10:04:34,0.044s,FAILED
+"click(findTestObject(""Object Repository/Page_SKT ERP  ERP/Login/button_login""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:34,2022-07-06 10:04:34,0.095s,FAILED
+"click(findTestObject(""Object Repository/Page_SKT ERP  ERP/Tab Sales/Tab Sales""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:34,2022-07-06 10:04:34,0.076s,FAILED
+"click(findTestObject(""Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Tab Sales Order""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:34,2022-07-06 10:04:34,0.091s,FAILED
+"click(findTestObject(""Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Add New Sales Order""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:34,2022-07-06 10:04:34,0.073s,FAILED
+"no_Sales_order_box_layer = ""git2box2lyr""",Chrome 103.0.5060.66,,,2022-07-06 10:04:34,2022-07-06 10:04:34,0.001s,PASSED
+noSalesOrderBoxLayer = no_Sales_order_box_layer,Chrome 103.0.5060.66,,,2022-07-06 10:04:34,2022-07-06 10:04:35,0.373s,PASSED
+"qty = ""100""",Chrome 103.0.5060.66,,,2022-07-06 10:04:35,2022-07-06 10:04:35,0.000s,PASSED
+qtySalesOrderBoxLayer = qty,Chrome 103.0.5060.66,,,2022-07-06 10:04:35,2022-07-06 10:04:35,0.000s,PASSED
+"price = ""9880""",Chrome 103.0.5060.66,,,2022-07-06 10:04:35,2022-07-06 10:04:35,0.001s,PASSED
+"price2 = ""9800""",Chrome 103.0.5060.66,,,2022-07-06 10:04:35,2022-07-06 10:04:35,0.000s,PASSED
+"price3 = ""10800""",Chrome 103.0.5060.66,,,2022-07-06 10:04:35,2022-07-06 10:04:35,0.000s,PASSED
+"setText(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Sales Order/Input No Sales Order""), no_Sales_order_box_layer)",Chrome 103.0.5060.66,,,2022-07-06 10:04:35,2022-07-06 10:04:35,0.080s,FAILED
+"setText(findTestObject(""Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Sales Person""), ""sujadi"")",Chrome 103.0.5060.66,,,2022-07-06 10:04:35,2022-07-06 10:04:35,0.084s,FAILED
+delay(3),Chrome 103.0.5060.66,,,2022-07-06 10:04:35,2022-07-06 10:04:38,3.034s,PASSED
+"click(findTestObject(""Page_SKT ERP  ERP/Constant/Sales/303 - Sujadi""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:38,2022-07-06 10:04:38,0.092s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Sales Order/Customer Field""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:38,2022-07-06 10:04:38,0.076s,FAILED
+"setText(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Customer""), ""pinrang"")",Chrome 103.0.5060.66,,,2022-07-06 10:04:38,2022-07-06 10:04:38,0.068s,FAILED
+delay(3),Chrome 103.0.5060.66,,,2022-07-06 10:04:38,2022-07-06 10:04:41,3.010s,PASSED
+"click(findTestObject(""Page_SKT ERP  ERP/Constant/Customer/PT Pinrang Pantai Indah""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:41,2022-07-06 10:04:41,0.088s,FAILED
+"scrollToElement(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Sales Order/Billing Address Field""), 30)",Chrome 103.0.5060.66,,,2022-07-06 10:04:41,2022-07-06 10:04:41,0.084s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Sales Order/Billing Address Field""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:41,2022-07-06 10:04:41,0.071s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Constant/Address/Billing Address PT Pinrang Pantai Indah""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:41,2022-07-06 10:04:41,0.072s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Sales Order/Shipping Address Field""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:41,2022-07-06 10:04:42,0.076s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Constant/Address/Shipping Address PT Pinrang Pantai Indah""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:42,2022-07-06 10:04:42,0.086s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Sales Order/i_tambah item""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:42,2022-07-06 10:04:42,0.081s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Sales Order/Type Field""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:42,2022-07-06 10:04:42,0.094s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Sales Order/Tipe Box""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:42,2022-07-06 10:04:42,0.094s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Sales Order/MasterCard Field""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:42,2022-07-06 10:04:42,0.111s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Constant/Mastercard/PT Pinrang Pantai Indah (10849 - 008420 - DUS CARMEL MOONCAKE - K150 0 0 M1)""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:42,2022-07-06 10:04:42,0.105s,FAILED
+"setText(findTestObject(""Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Quantity""), qty)",Chrome 103.0.5060.66,,,2022-07-06 10:04:42,2022-07-06 10:04:42,0.090s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Sales Order/Unit Field""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:42,2022-07-06 10:04:42,0.097s,FAILED
+"click(findTestObject(""Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Unit Pcs""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:42,2022-07-06 10:04:42,0.087s,FAILED
+"setText(findTestObject(""Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Harga""), price)",Chrome 103.0.5060.66,,,2022-07-06 10:04:42,2022-07-06 10:04:42,0.078s,FAILED
+"click(findTestObject(""Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Tanggal Kirim""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:42,2022-07-06 10:04:43,0.077s,FAILED
+"click(findTestObject(""Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Tanggal 30""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:43,2022-07-06 10:04:43,0.074s,FAILED
+"click(findTestObject(""Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Save Sales Order Line""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:43,2022-07-06 10:04:43,0.091s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Sales Order/Edit Sales Order Line 2""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:43,2022-07-06 10:04:43,0.101s,FAILED
+"setText(findTestObject(""Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Harga""), price2)",Chrome 103.0.5060.66,,,2022-07-06 10:04:43,2022-07-06 10:04:43,0.124s,FAILED
+"click(findTestObject(""Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Save Sales Order Line""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:43,2022-07-06 10:04:43,0.109s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Sales Order/Edit Sales Order Line 3""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:43,2022-07-06 10:04:43,0.107s,FAILED
+"setText(findTestObject(""Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Input Harga""), price3)",Chrome 103.0.5060.66,,,2022-07-06 10:04:43,2022-07-06 10:04:43,0.083s,FAILED
+"click(findTestObject(""Object Repository/Page_SKT ERP  ERP/Tab Sales/Sales Order/Save Sales Order Line""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:43,2022-07-06 10:04:43,0.071s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Sales Order/Save Sales Order""))",Chrome 103.0.5060.66,,,2022-07-06 10:04:43,2022-07-06 10:04:43,0.073s,FAILED
+,,,,,,,
+Test Cases/SKT ERP/Release Sales Order/3 - Release Sales Order Box Layer,Chrome 103.0.5060.66,,,2022-07-06 10:04:43,2022-07-06 10:17:24,12m - 40.282s,FAILED
+"openBrowser("""")",Chrome 103.0.5060.66,,,2022-07-06 10:04:44,2022-07-06 10:04:46,1.872s,PASSED
+"navigateToUrl(""http://localhost:3001/login"")",Chrome 103.0.5060.66,,,2022-07-06 10:04:46,2022-07-06 10:04:46,0.949s,PASSED
+"setText(findTestObject(""Object Repository/Page_SKT ERP  ERP/Login/input_login_username""), ""devshelly"")",Chrome 103.0.5060.66,,,2022-07-06 10:04:46,2022-07-06 10:05:35,48.770s,FAILED
+"setEncryptedText(findTestObject(""Object Repository/Page_SKT ERP  ERP/Login/input_login_password""), ""bD8Rq1FIAurX2vfab/lFTQ=="")",Chrome 103.0.5060.66,,,2022-07-06 10:05:35,2022-07-06 10:06:12,36.608s,FAILED
+maximizeWindow(),Chrome 103.0.5060.66,,,2022-07-06 10:06:12,2022-07-06 10:06:36,24.334s,FAILED
+"click(findTestObject(""Object Repository/Page_SKT ERP  ERP/Login/button_login""))",Chrome 103.0.5060.66,,,2022-07-06 10:06:36,2022-07-06 10:07:13,36.570s,FAILED
+"click(findTestObject(""Object Repository/Page_SKT ERP  ERP/Tab Sales/Tab Sales""))",Chrome 103.0.5060.66,,,2022-07-06 10:07:13,2022-07-06 10:07:49,36.644s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Tab Release Sales Order""))",Chrome 103.0.5060.66,,,2022-07-06 10:07:49,2022-07-06 10:08:26,36.581s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Button Filters""))",Chrome 103.0.5060.66,,,2022-07-06 10:08:26,2022-07-06 10:09:03,36.567s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Filters by No SO""))",Chrome 103.0.5060.66,,,2022-07-06 10:09:03,2022-07-06 10:09:39,36.517s,FAILED
+noSalesOrder = noSalesOrderBoxLayer,Chrome 103.0.5060.66,,,2022-07-06 10:09:39,2022-07-06 10:09:39,0.001s,PASSED
+"setText(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Filters by No SO""), noSalesOrder)",Chrome 103.0.5060.66,,,2022-07-06 10:09:39,2022-07-06 10:10:16,36.587s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/button Search in Filters""))",Chrome 103.0.5060.66,,,2022-07-06 10:10:16,2022-07-06 10:10:52,36.606s,FAILED
+"scrollToElement(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/button Search in Filters""), 30)",Chrome 103.0.5060.66,,,2022-07-06 10:10:52,2022-07-06 10:11:29,36.482s,FAILED
+delay(5),Chrome 103.0.5060.66,,,2022-07-06 10:11:29,2022-07-06 10:11:34,5.017s,PASSED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Release""))",Chrome 103.0.5060.66,,,2022-07-06 10:11:34,2022-07-06 10:12:10,36.593s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/button Ya for Release Sales Order""))",Chrome 103.0.5060.66,,,2022-07-06 10:12:10,2022-07-06 10:12:47,36.573s,FAILED
+"scrollToElement(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Assign""), 30)",Chrome 103.0.5060.66,,,2022-07-06 10:12:47,2022-07-06 10:13:24,36.632s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Assign""))",Chrome 103.0.5060.66,,,2022-07-06 10:13:24,2022-07-06 10:14:00,36.527s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/button_Ya""))",Chrome 103.0.5060.66,,,2022-07-06 10:14:00,2022-07-06 10:14:37,36.577s,FAILED
+delay(5),Chrome 103.0.5060.66,,,2022-07-06 10:14:37,2022-07-06 10:14:42,5.006s,PASSED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Tab Sales""))",Chrome 103.0.5060.66,,,2022-07-06 10:14:42,2022-07-06 10:15:18,36.533s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Whitelist Release SPK (bypass payment delay)/Tab Whitelist Release SPK (bypass payment delay)""))",Chrome 103.0.5060.66,,,2022-07-06 10:15:18,2022-07-06 10:15:55,36.641s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Whitelist Release SPK (bypass payment delay)/Approve""))",Chrome 103.0.5060.66,,,2022-07-06 10:15:55,2022-07-06 10:16:31,36.606s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Whitelist Release SPK (bypass payment delay)/button Ya for Approve""))",Chrome 103.0.5060.66,,,2022-07-06 10:16:31,2022-07-06 10:17:08,36.593s,FAILED
+delay(15),Chrome 103.0.5060.66,,,2022-07-06 10:17:08,2022-07-06 10:17:23,15.006s,PASSED
+closeBrowser(),Chrome 103.0.5060.66,,,2022-07-06 10:17:23,2022-07-06 10:17:24,0.599s,PASSED
+,,,,,,,
+Test Cases/SKT ERP/Production/3 - 2B_ Verify Calculated Values in Work Order (box layer1 layer2),Chrome 103.0.5060.66,,,2022-07-06 10:17:24,2022-07-06 10:17:31,7.679s,FAILED
+"openBrowser("""")",Chrome 103.0.5060.66,,,2022-07-06 10:17:24,2022-07-06 10:17:26,1.331s,PASSED
+"navigateToUrl(""http://localhost:3001/login"")",Chrome 103.0.5060.66,,,2022-07-06 10:17:26,2022-07-06 10:17:27,1.444s,PASSED
+"setText(findTestObject(""Object Repository/Page_SKT ERP  ERP/Login/input_login_username""), ""devshelly"")",Chrome 103.0.5060.66,,,2022-07-06 10:17:27,2022-07-06 10:17:27,0.166s,FAILED
+"setEncryptedText(findTestObject(""Object Repository/Page_SKT ERP  ERP/Login/input_login_password""), ""bD8Rq1FIAurX2vfab/lFTQ=="")",Chrome 103.0.5060.66,,,2022-07-06 10:17:27,2022-07-06 10:17:28,0.128s,FAILED
+maximizeWindow(),Chrome 103.0.5060.66,,,2022-07-06 10:17:28,2022-07-06 10:17:28,0.035s,FAILED
+driver = getWebDriver(),Chrome 103.0.5060.66,,,2022-07-06 10:17:28,2022-07-06 10:17:28,0.014s,PASSED
+"click(findTestObject(""Object Repository/Page_SKT ERP  ERP/Login/button_login""))",Chrome 103.0.5060.66,,,2022-07-06 10:17:28,2022-07-06 10:17:28,0.094s,FAILED
+"click(findTestObject(""Object Repository/Page_SKT ERP  ERP/Tab Sales/Tab Sales""))",Chrome 103.0.5060.66,,,2022-07-06 10:17:28,2022-07-06 10:17:28,0.091s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Tab Release Sales Order""))",Chrome 103.0.5060.66,,,2022-07-06 10:17:28,2022-07-06 10:17:28,0.089s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Button Filters""))",Chrome 103.0.5060.66,,,2022-07-06 10:17:28,2022-07-06 10:17:28,0.111s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Filters by No SO""))",Chrome 103.0.5060.66,,,2022-07-06 10:17:28,2022-07-06 10:17:28,0.082s,FAILED
+noSalesOrder = noSalesOrderBoxLayer,Chrome 103.0.5060.66,,,2022-07-06 10:17:28,2022-07-06 10:17:28,0.001s,PASSED
+qtySalesOrder = qtySalesOrderBoxLayer,Chrome 103.0.5060.66,,,2022-07-06 10:17:28,2022-07-06 10:17:28,0.001s,PASSED
+newQty = Float.parseFloat(qtySalesOrder),Chrome 103.0.5060.66,,,2022-07-06 10:17:28,2022-07-06 10:17:28,0.009s,PASSED
+"setText(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/Filters by No SO""), noSalesOrder)",Chrome 103.0.5060.66,,,2022-07-06 10:17:28,2022-07-06 10:17:28,0.075s,FAILED
+"click(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/button Search in Filters""))",Chrome 103.0.5060.66,,,2022-07-06 10:17:28,2022-07-06 10:17:28,0.098s,FAILED
+"scrollToElement(findTestObject(""Page_SKT ERP  ERP/Tab Sales/Release Sales Order/button Search in Filters""), 30)",Chrome 103.0.5060.66,,,2022-07-06 10:17:28,2022-07-06 10:17:28,0.095s,FAILED
+delay(3),Chrome 103.0.5060.66,,,2022-07-06 10:17:28,2022-07-06 10:17:31,3.004s,PASSED
+"Table = driver.findElement(By.xpath(""/html[1]/body[1]/div[1]/div[1]/main[1]/section[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/table[1]/tbody[1]""))",Chrome 103.0.5060.66,,,2022-07-06 10:17:31,2022-07-06 10:17:31,0.048s,ERROR

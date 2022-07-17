@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_View</name>
+   <tag></tag>
+   <elementGuidId>638d8ded-8f57-4050-95b4-e401076f5075</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='react-app']/div/main/section/div/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/table/tbody/tr/td[25]/span/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>687090b6-0987-4fd5-b62c-530635f63745</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View</value>
+      <webElementGuid>a2161623-1a00-4264-a9c0-3f7bec09bdc5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react-app&quot;)/div[@class=&quot;container&quot;]/main[@class=&quot;layout&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;canvas&quot;]/div[@class=&quot;canvas--content customerinvoice&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-table-wrapper table&quot;]/div[@class=&quot;ant-spin-nested-loading&quot;]/div[@class=&quot;ant-spin-container&quot;]/div[@class=&quot;ant-table ant-table-middle ant-table-fixed-header ant-table-layout-fixed ant-table-scroll-position-right&quot;]/div[@class=&quot;ant-table-content&quot;]/div[@class=&quot;ant-table-scroll&quot;]/div[@class=&quot;ant-table-body&quot;]/table[@class=&quot;ant-table-fixed&quot;]/tbody[@class=&quot;ant-table-tbody&quot;]/tr[@class=&quot;ant-table-row ant-table-row-level-0&quot;]/td[@class=&quot;ant-table-row-cell-break-word&quot;]/span[1]/a[1]</value>
+      <webElementGuid>1af0025c-68dc-492b-859e-4a7f24b4b2e8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react-app']/div/main/section/div/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/table/tbody/tr/td[25]/span/a</value>
+      <webElementGuid>a99dba0d-a61b-461a-8397-69dfc8aa27fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'View')]</value>
+      <webElementGuid>8587159c-9a52-4ee4-b927-edad9e060ecd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='normal'])[1]/following::a[1]</value>
+      <webElementGuid>cbb6ce1e-0fb2-4446-8a2f-55a852ed924c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pending'])[1]/following::a[1]</value>
+      <webElementGuid>56684005-124d-4499-bb98-a750920a5419</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='JA186 - PT JAYAMAS MEDICA INDUSTRI'])[1]/preceding::a[2]</value>
+      <webElementGuid>1c0340df-7b14-4c02-8392-b8a3a76a7624</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tidak'])[2]/preceding::a[2]</value>
+      <webElementGuid>650151dc-86d9-4d47-a2b1-3bb1eef9fd3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='View']/parent::*</value>
+      <webElementGuid>343213a6-9a61-445a-a15d-4e9ebd583263</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/a</value>
+      <webElementGuid>b2759f4e-9261-4576-ac5a-a49bc549c123</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'View' or . = 'View')]</value>
+      <webElementGuid>37c8fc08-6a9a-400c-8314-ffffb0dc1346</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Filters by Lot (FG 1)</name>
+   <tag></tag>
+   <elementGuidId>1d664c74-4aea-41ec-9a33-dd17efcada8c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[contains(text(),'FG 1')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>e5129a81-0dde-4411-8ada-f2514e1bcd3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>4b82a311-4a59-40f6-b671-6ad2e999470c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>unselectable</name>
+      <type>Main</type>
+      <value>on</value>
+      <webElementGuid>3cc2383f-3989-4a01-9b3b-c1c8e1921918</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>FG 1 - 881706490 pcs</value>
+      <webElementGuid>c0c5aaf6-1c07-4ac9-a7ca-581497bcf6db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-select-dropdown-menu-item</value>
+      <webElementGuid>a7631e15-063e-462a-b6e7-09e85627a5f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>ba1c134c-85bc-40ea-9da9-646437870154</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>99e5d4bc-11f8-4c80-8911-35db08068b1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>FG 1 - 881706490 pcs</value>
+      <webElementGuid>a6792e45-9282-45a1-9c3d-a9b49ad82f7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ab884fe0-083e-4aea-cc88-7fb1dc57afff&quot;)/ul[@class=&quot;ant-select-dropdown-menu  ant-select-dropdown-menu-root ant-select-dropdown-menu-vertical&quot;]/li[@class=&quot;ant-select-dropdown-menu-item&quot;]</value>
+      <webElementGuid>078915e0-5e00-4efb-99c5-18ac45d07c76</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ab884fe0-083e-4aea-cc88-7fb1dc57afff']/ul/li[5]</value>
+      <webElementGuid>99ff41f3-021c-4902-becf-9b2a409de33a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BPSP A 1 - 1000020 pcs'])[1]/following::li[1]</value>
+      <webElementGuid>645323b6-7122-4d94-81dd-dcb64f52120f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BPSP A 2 - 93144082 biji'])[1]/following::li[2]</value>
+      <webElementGuid>b7ca797e-5b2d-40ed-9450-d3eaacfa53aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lot Cut Off FG - 181180 pcs'])[1]/preceding::li[1]</value>
+      <webElementGuid>a6fbb5ef-d065-4054-8ee1-b4d7699e305f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lot Barang Campur - 0 pcs'])[1]/preceding::li[2]</value>
+      <webElementGuid>0b9f2c50-7e4a-485c-b152-376f0c61a633</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='FG 1 - 881706490 pcs']/parent::*</value>
+      <webElementGuid>b292db68-810c-4720-9300-a8e5fdcaef14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div/div/div/ul/li[5]</value>
+      <webElementGuid>2993b4d9-a983-492d-9ab1-e6f194d97d98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[@title = 'FG 1 - 881706490 pcs' and (text() = 'FG 1 - 881706490 pcs' or . = 'FG 1 - 881706490 pcs')]</value>
+      <webElementGuid>6823a258-e0e4-4850-8325-0bcc9c114ca8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

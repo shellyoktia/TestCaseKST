@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox for SJ</name>
+   <tag></tag>
+   <elementGuidId>933a7a63-93ac-4245-b801-4de7e7bc2504</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@value=''])[12]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'checkbox']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.do_checkbox:first-child .ant-checkbox-input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>cdff51e9-9ddd-4c29-bcef-f4981bfc2f76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>357c8a84-c8e8-4b36-8361-e4706f985a99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-checkbox-input</value>
+      <webElementGuid>f12648c9-616b-4518-a605-33d81102aea8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react-app&quot;)/div[@class=&quot;container&quot;]/main[@class=&quot;layout&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;canvas&quot;]/div[@class=&quot;canvas--content deliveryorder&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-table-wrapper table&quot;]/div[@class=&quot;ant-spin-nested-loading&quot;]/div[@class=&quot;ant-spin-container&quot;]/div[@class=&quot;ant-table ant-table-middle ant-table-fixed-header ant-table-layout-fixed ant-table-scroll-position-left&quot;]/div[@class=&quot;ant-table-content&quot;]/div[@class=&quot;ant-table-scroll&quot;]/div[@class=&quot;ant-table-body&quot;]/table[@class=&quot;ant-table-fixed&quot;]/tbody[@class=&quot;ant-table-tbody&quot;]/tr[@class=&quot;ant-table-row  ant-table-row-hover ant-table-row-level-0 ant-table-row-selected&quot;]/td[@class=&quot;ant-table-selection-column&quot;]/span[1]/label[@class=&quot;ant-checkbox-wrapper ant-checkbox-wrapper-checked&quot;]/span[@class=&quot;ant-checkbox ant-checkbox-checked&quot;]/input[@class=&quot;ant-checkbox-input&quot;]</value>
+      <webElementGuid>7240e46f-c5e0-429c-9d8b-8252cb74f8f7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[2]</value>
+      <webElementGuid>42854767-2c84-49a0-b8a4-61a71350eda8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react-app']/div/main/section/div/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/table/tbody/tr/td[2]/span/label/span/input</value>
+      <webElementGuid>a404691f-6380-4b79-ae51-d3238e1e02c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/label/span/input</value>
+      <webElementGuid>27a3de72-f620-48cc-b01a-4ba47a4b3d01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'checkbox']</value>
+      <webElementGuid>21270645-8123-423f-8b99-41a6e7936279</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

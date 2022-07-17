@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Penyerah</name>
+   <tag></tag>
+   <elementGuidId>f01dbd58-4768-4bdd-aa37-4ba4fa47c60e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[@id='react-app']/div[1]/main[1]/section[1]/div[1]/div[2]/form[1]/div[2]/div[1]/div[6]/div[2]/div[1]/div[2]/div[1]/span[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/div[1]/input[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

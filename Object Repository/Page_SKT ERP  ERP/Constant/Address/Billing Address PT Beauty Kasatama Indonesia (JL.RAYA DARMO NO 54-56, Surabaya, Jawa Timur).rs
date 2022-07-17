@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Billing Address PT Beauty Kasatama Indonesia (JL.RAYA DARMO NO 54-56, Surabaya, Jawa Timur)</name>
+   <tag></tag>
+   <elementGuidId>f6c70b80-1258-4afe-8549-8778733dc981</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[contains(text(),'JL. RAYA DARMO NO 54-56, Surabaya, Jawa Timur')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.ant-select-dropdown-menu-item.ant-select-dropdown-menu-item-active</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>039ed411-8df7-420e-8813-0f86ca293886</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>ea849722-fa93-47eb-88d1-cb70ed688a7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>unselectable</name>
+      <type>Main</type>
+      <value>on</value>
+      <webElementGuid>49cbc5f6-d603-4595-8a91-6a700f0060fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>JL. RAYA DARMO NO 54-56, Surabaya, Jawa Timur</value>
+      <webElementGuid>197572c4-ec36-44f6-bfcb-dd9f6c132f02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-select-dropdown-menu-item ant-select-dropdown-menu-item-active</value>
+      <webElementGuid>6eee10be-3722-4c5b-af2b-975a69a99a0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>3b240287-54ed-4b33-8c53-a8b1379963d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>JL. RAYA DARMO NO 54-56, Surabaya, Jawa Timur</value>
+      <webElementGuid>476c33f1-36e0-4599-b6f2-a6085748f35f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;db1bd4b0-95f0-42a9-9946-4bf06fcb3537&quot;)/ul[@class=&quot;ant-select-dropdown-menu  ant-select-dropdown-menu-root ant-select-dropdown-menu-vertical&quot;]/li[@class=&quot;ant-select-dropdown-menu-item ant-select-dropdown-menu-item-active&quot;]</value>
+      <webElementGuid>9ef95807-6e64-4bed-bc83-141b08bfae23</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='db1bd4b0-95f0-42a9-9946-4bf06fcb3537']/ul/li</value>
+      <webElementGuid>a7504f67-6ebc-483c-8c08-cd6202f3f5ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BE631 - PT BEAUTY KASATAMA INDONESIA'])[2]/following::li[1]</value>
+      <webElementGuid>ea664681-fe19-42d2-b8dc-56e4d6d130db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BE396 - CV BEAUTY KASATAMA'])[1]/following::li[2]</value>
+      <webElementGuid>8e2b5289-4297-415c-84c4-42353c29cea0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='JL. RAYA DARMO NO 54-56, Surabaya, Jawa Timur']/parent::*</value>
+      <webElementGuid>e000d35e-f6c2-4051-9412-6fc60445c009</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div/div/div/ul/li</value>
+      <webElementGuid>e61fd1f2-8837-4831-a677-e1ef91264d37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[@title = 'JL. RAYA DARMO NO 54-56, Surabaya, Jawa Timur' and (text() = 'JL. RAYA DARMO NO 54-56, Surabaya, Jawa Timur' or . = 'JL. RAYA DARMO NO 54-56, Surabaya, Jawa Timur')]</value>
+      <webElementGuid>2bab2dfe-777a-4f29-a84a-8f3e68d8dc16</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

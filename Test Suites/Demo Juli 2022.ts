@@ -49,7 +49,7 @@
    <testCaseLink>
       <guid>794ffcdc-d152-42fc-aa4b-6d2181dce9aa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SKT ERP/Production/2 - 2A_ Verify Calculated Values in Work Order (box partisi1 partisi2)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

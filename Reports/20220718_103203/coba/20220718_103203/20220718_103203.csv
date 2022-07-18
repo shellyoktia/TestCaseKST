@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+coba,Chrome 103.0.5060.114,,,2022-07-18 10:32:12,2022-07-18 10:32:20,7.678s,PASSED
+,,,,,,,
+Test Cases/percobaan/coba,Chrome 103.0.5060.114,,,2022-07-18 10:32:13,2022-07-18 10:32:20,7.384s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-18 10:32:13,2022-07-18 10:32:16,3.009s,PASSED
+"navigateToUrl(""http://localhost:3001/login"")",Chrome 103.0.5060.114,,,2022-07-18 10:32:16,2022-07-18 10:32:18,2.160s,PASSED
+"setText(findTestObject(""Object Repository/Page_SKT ERP  ERP/Login/input_login_username""), ""devshelly"")",Chrome 103.0.5060.114,,,2022-07-18 10:32:18,2022-07-18 10:32:19,0.907s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_SKT ERP  ERP/Login/input_login_password""), ""bD8Rq1FIAurX2vfab/lFTQ=="")",Chrome 103.0.5060.114,,,2022-07-18 10:32:19,2022-07-18 10:32:20,0.596s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-18 10:32:20,2022-07-18 10:32:20,0.162s,PASSED
+"noSalesOrder = ""alert2""",Chrome 103.0.5060.114,,,2022-07-18 10:32:20,2022-07-18 10:32:20,0.002s,PASSED
+"alert1 = ""alert1""",Chrome 103.0.5060.114,,,2022-07-18 10:32:20,2022-07-18 10:32:20,0.002s,PASSED
+"whitelist = ""Tidak bisa release so line, karena ada pembayaran telat""",Chrome 103.0.5060.114,,,2022-07-18 10:32:20,2022-07-18 10:32:20,0.003s,PASSED
+"approval = ""Request telah berhasil dibuat. Silahkan tunggu approval""",Chrome 103.0.5060.114,,,2022-07-18 10:32:20,2022-07-18 10:32:20,0.001s,PASSED
+"expense = ""expense per kg < benchmark, pls ask selling price appro""",Chrome 103.0.5060.114,,,2022-07-18 10:32:20,2022-07-18 10:32:20,0.001s,PASSED
+"lalala = whitelist.substring(0, 55)",Chrome 103.0.5060.114,,,2022-07-18 10:32:20,2022-07-18 10:32:20,0.002s,PASSED
+"lalao = approval.substring(0, 55)",Chrome 103.0.5060.114,,,2022-07-18 10:32:20,2022-07-18 10:32:20,0.001s,PASSED
+"lalaa = expense.substring(0, 55)",Chrome 103.0.5060.114,,,2022-07-18 10:32:20,2022-07-18 10:32:20,0.002s,PASSED
+comment(lalala),Chrome 103.0.5060.114,,,2022-07-18 10:32:20,2022-07-18 10:32:20,0.031s,PASSED
+comment(lalao),Chrome 103.0.5060.114,,,2022-07-18 10:32:20,2022-07-18 10:32:20,0.008s,PASSED
+comment(lalaa),Chrome 103.0.5060.114,,,2022-07-18 10:32:20,2022-07-18 10:32:20,0.002s,PASSED

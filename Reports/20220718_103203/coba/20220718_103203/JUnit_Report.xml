@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="coba" time="7.678" tests="1" failures="0" errors="0">
+   <testsuite name="coba" tests="1" failures="0" errors="0" time="7.678" skipped="0" timestamp="2022-07-18 10:32:12" hostname="Shelly - LAPTOP-E00FH6K0.mshome.net" id="Test Suites/coba">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Shelly\\git\\TestCaseSKT\\Reports\\20220718_103203\\coba\\20220718_103203"/>
+         <property name="logFiles" value="C:\\Users\\Shelly\\git\\TestCaseSKT\\Reports\\20220718_103203\\coba\\20220718_103203\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Shelly - LAPTOP-E00FH6K0.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="browser" value="Chrome 103.0.5060.114"/>
+         <property name="hostAddress" value="172.22.48.1"/>
+         <property name="sessionId" value="a2c86ae8d730d78f758862f2fa747f89"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/percobaan/coba" time="7.384" classname="Test Cases/percobaan/coba" status="PASSED">
+         <system-out><![CDATA[2022-07-18 10:32:13 - [TEST_CASE][PASSED] - Test Cases/percobaan/coba: Test Cases/percobaan/coba
+
+2022-07-18 10:32:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-18 10:32:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-18 10:32:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-18 10:32:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-18 10:32:16 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3001/login"): Navigate to 'http://localhost:3001/login' successfully
+
+2022-07-18 10:32:18 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3001/login' successfully
+
+2022-07-18 10:32:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_SKT ERP  ERP/Login/input_login_username"), "devshelly"): Text 'devshelly' is set on object 'Object Repository/Page_SKT ERP  ERP/Login/input_login_username'
+
+2022-07-18 10:32:19 - [MESSAGE][PASSED] - Text 'devshelly' is set on object 'Object Repository/Page_SKT ERP  ERP/Login/input_login_username'
+
+2022-07-18 10:32:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_SKT ERP  ERP/Login/input_login_password"), "bD8Rq1FIAurX2vfab/lFTQ=="): Text ****** has been set on object 'Object Repository/Page_SKT ERP  ERP/Login/input_login_password'
+
+2022-07-18 10:32:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SKT ERP  ERP/Login/input_login_password'
+
+2022-07-18 10:32:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-18 10:32:20 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-18 10:32:20 - [TEST_STEP][PASSED] - noSalesOrder = "alert2": null
+
+2022-07-18 10:32:20 - [TEST_STEP][PASSED] - alert1 = "alert1": null
+
+2022-07-18 10:32:20 - [TEST_STEP][PASSED] - whitelist = "Tidak bisa release so line, karena ada pembayaran telat": null
+
+2022-07-18 10:32:20 - [TEST_STEP][PASSED] - approval = "Request telah berhasil dibuat. Silahkan tunggu approval": null
+
+2022-07-18 10:32:20 - [TEST_STEP][PASSED] - expense = "expense per kg < benchmark, pls ask selling price appro": null
+
+2022-07-18 10:32:20 - [TEST_STEP][PASSED] - lalala = whitelist.substring(0, 55): null
+
+2022-07-18 10:32:20 - [TEST_STEP][PASSED] - lalao = approval.substring(0, 55): null
+
+2022-07-18 10:32:20 - [TEST_STEP][PASSED] - lalaa = expense.substring(0, 55): null
+
+2022-07-18 10:32:20 - [TEST_STEP][PASSED] - comment(lalala): Tidak bisa release so line, karena ada pembayaran telat
+
+2022-07-18 10:32:20 - [MESSAGE][INFO] - Tidak bisa release so line, karena ada pembayaran telat
+
+2022-07-18 10:32:20 - [TEST_STEP][PASSED] - comment(lalao): Request telah berhasil dibuat. Silahkan tunggu approval
+
+2022-07-18 10:32:20 - [MESSAGE][INFO] - Request telah berhasil dibuat. Silahkan tunggu approval
+
+2022-07-18 10:32:20 - [TEST_STEP][PASSED] - comment(lalaa): expense per kg < benchmark, pls ask selling price appro
+
+2022-07-18 10:32:20 - [MESSAGE][INFO] - expense per kg < benchmark, pls ask selling price appro]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-18 10:32:12 - [TEST_SUITE][PASSED] - coba: Test Cases/percobaan/coba]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
